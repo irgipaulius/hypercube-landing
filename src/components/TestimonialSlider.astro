@@ -1,14 +1,15 @@
 ---
-import type { Testimonial } from "../data/site";
+import type { Translation } from "../i18n";
 
 interface Props {
-  items: Testimonial[];
+  items: Translation["testimonials"];
+  labels: Translation["common"];
 }
 
-const { items } = Astro.props;
+const { items, labels } = Astro.props;
 ---
 
-<section class="relative" aria-label="Atsiliepimai">
+<section class="relative" aria-label={labels.testimonialSelect}>
   <div class="overflow-hidden rounded-3xl border border-border bg-surface-elevated p-8 md:p-12">
     {
       items.map((item, i) => (
@@ -16,7 +17,7 @@ const { items } = Astro.props;
           data-slide={i}
           class:list={["testimonial-slide transition-opacity duration-500", i === 0 ? "block opacity-100" : "hidden opacity-0"]}
         >
-          <p class="font-display text-xl leading-relaxed text-ink md:text-2xl">“{item.quote}”</p>
+          <p class="font-display text-xl leading-relaxed text-ink md:text-2xl">"{item.quote}"</p>
           <footer class="mt-6 text-sm font-semibold text-accent">— {item.author}</footer>
         </blockquote>
       ))
@@ -28,11 +29,11 @@ const { items } = Astro.props;
       type="button"
       data-prev
       class="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-surface-elevated text-ink transition hover:border-accent hover:text-accent"
-      aria-label="Ankstesnis atsiliepimas"
+      aria-label={labels.testimonialPrev}
     >
       ←
     </button>
-    <div class="flex gap-2" role="tablist" aria-label="Pasirinkti atsiliepimą">
+    <div class="flex gap-2" role="tablist">
       {
         items.map((_, i) => (
           <button
@@ -40,11 +41,8 @@ const { items } = Astro.props;
             data-dot={i}
             role="tab"
             aria-selected={i === 0 ? "true" : "false"}
-            class:list={[
-              "h-2 rounded-full transition-all",
-              i === 0 ? "w-8 bg-accent" : "w-2 bg-border hover:bg-accent/50",
-            ]}
-            aria-label={`Atsiliepimas ${i + 1}`}
+            class:list={["h-2 rounded-full transition-all", i === 0 ? "w-8 bg-accent" : "w-2 bg-border hover:bg-accent/50"]}
+            aria-label={`${labels.testimonialSelect} ${i + 1}`}
           />
         ))
       }
@@ -53,7 +51,7 @@ const { items } = Astro.props;
       type="button"
       data-next
       class="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-surface-elevated text-ink transition hover:border-accent hover:text-accent"
-      aria-label="Kitas atsiliepimas"
+      aria-label={labels.testimonialNext}
     >
       →
     </button>
@@ -92,5 +90,7 @@ const { items } = Astro.props;
     dots.forEach((dot, i) => dot.addEventListener("click", () => show(i)));
   }
 
-  document.querySelectorAll<HTMLElement>("section[aria-label='Atsiliepimai']").forEach(initSlider);
+  document.querySelectorAll<HTMLElement>("section[aria-label]").forEach((el) => {
+    if (el.querySelector(".testimonial-slide")) initSlider(el);
+  });
 </script>

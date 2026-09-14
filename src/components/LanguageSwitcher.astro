@@ -1,0 +1,27 @@
+---
+import { localeLabels, locales, switchLocalePath, type Locale } from "../i18n";
+
+interface Props {
+  currentLocale: Locale;
+  currentPath: string;
+}
+
+const { currentLocale, currentPath } = Astro.props;
+---
+
+<div class="flex items-center gap-1">
+  <label for="lang-select" class="sr-only">Kalba / Language</label>
+  <select
+    id="lang-select"
+    class="rounded-lg border border-border bg-surface-elevated px-2 py-1.5 text-xs font-medium text-ink-muted transition hover:border-accent focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20 md:text-sm"
+    onchange="window.location.href = this.value"
+  >
+    {
+      locales.map((code) => (
+        <option value={switchLocalePath(currentPath, code)} selected={code === currentLocale}>
+          {localeLabels[code]}
+        </option>
+      ))
+    }
+  </select>
+</div>

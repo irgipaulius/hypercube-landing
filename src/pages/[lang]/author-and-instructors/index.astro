@@ -1,0 +1,52 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import SectionHeading from "../../../components/SectionHeading.astro";
+import PersonCard from "../../../components/PersonCard.astro";
+import {
+  getPersonWithContact,
+  getTranslation,
+  isLocale,
+  locales,
+  type Locale,
+} from "../../../i18n";
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang!;
+if (!isLocale(lang)) return Astro.redirect("/lt/author-and-instructors/");
+
+const locale = lang as Locale;
+const t = getTranslation(locale);
+const author = getPersonWithContact(t.author);
+const instructors = t.instructors.map(getPersonWithContact);
+---
+
+<BaseLayout locale={locale} t={t} title={t.teamPage.title} description={t.teamPage.metaDescription}>
+  <section class="border-b border-border bg-gradient-to-b from-accent/5 to-transparent py-16 md:py-20">
+    <div class="mx-auto max-w-6xl px-5">
+      <SectionHeading
+        eyebrow={t.teamPage.eyebrow}
+        title={t.teamPage.title}
+        description={t.teamPage.description}
+      />
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-5 py-16 md:py-20">
+    <h2 class="mb-8 font-display text-2xl font-semibold text-ink">{t.teamPage.authorSection}</h2>
+    <div class="grid gap-8">
+      <PersonCard person={author} labels={t.common} featured />
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-5 pb-20 md:pb-28">
+    <h2 class="mb-8 font-display text-2xl font-semibold text-ink">{t.teamPage.instructorsSection}</h2>
+    <div class="grid gap-8 sm:grid-cols-2">
+      {instructors.map((person) => (
+        <PersonCard person={person} labels={t.common} />
+      ))}
+    </div>
+  </section>
+</BaseLayout>

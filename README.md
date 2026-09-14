@@ -19,14 +19,17 @@ npm run build      # output → dist/
 npm run preview    # preview production build
 ```
 
-## Content
+## Content & languages
 
-Site copy lives in typed TypeScript: `src/data/site.ts`.
+**Read [AGENTS.md](./AGENTS.md)** — especially for AI agents: deploy rules, translation checklist, project structure.
 
-To refresh raw WordPress exports (reference only):
+Site copy lives in **7 locale files**: `src/i18n/locales/{lt,en,ru,uk,cz,sk,pl}.ts`
+
+Routes: `/lt/`, `/en/`, `/ru/`, `/uk/`, `/cz/`, `/sk/`, `/pl/` (root `/` → `/lt/`)
 
 ```bash
-npm run fetch:wp
+npm run validate:i18n   # verify all locales have matching keys
+npm run fetch:wp        # refresh WordPress exports (reference only)
 ```
 
 ## Deploy

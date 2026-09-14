@@ -7,7 +7,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "fetch:wp": "node scripts/fetch-wp-content.mjs"
+    "fetch:wp": "node scripts/fetch-wp-content.mjs",
+    "validate:i18n": "node scripts/validate-i18n.mjs"
   },
   "dependencies": {
     "@fontsource-variable/dm-sans": "^5.3.0",

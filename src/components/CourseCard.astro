@@ -1,12 +1,15 @@
 ---
-import type { Course } from "../data/site";
+import type { Translation } from "../i18n";
+
+type CourseWithMedia = ReturnType<typeof import("../i18n").getCourseWithMedia>;
 
 interface Props {
-  course: Course;
+  course: CourseWithMedia;
+  labels: Translation["common"];
   index: number;
 }
 
-const { course, index } = Astro.props;
+const { course, labels, index } = Astro.props;
 const reversed = index % 2 === 1;
 ---
 
@@ -29,19 +32,14 @@ const reversed = index % 2 === 1;
           aria-label={course.media.alt}
         />
       ) : (
-        <img
-          src={course.media.src}
-          alt={course.media.alt ?? course.title}
-          class="h-full w-full object-cover"
-          loading="lazy"
-        />
+        <img src={course.media.src} alt={course.media.alt} class="h-full w-full object-cover" loading="lazy" />
       )
     }
   </div>
 
   <div>
     <p class="text-sm font-semibold uppercase tracking-wider text-accent">{course.subtitle}</p>
-    <h3 class="mt-2 font-display text-2xl font-semibold text-ink md:text-3xl">„{course.title}"</h3>
+    <h3 class="mt-2 font-display text-2xl font-semibold text-ink md:text-3xl">{course.title}</h3>
 
     {course.prerequisite && (
       <p class="mt-3 rounded-lg bg-gold/10 px-3 py-2 text-sm text-ink-muted">{course.prerequisite}</p>
@@ -65,7 +63,7 @@ const reversed = index % 2 === 1;
     }
 
     {
-      course.appLink && (
+      course.appLink && course.appLinkLabel && (
         <p class="mt-5 text-sm">
           <a
             href={course.appLink}
@@ -73,7 +71,7 @@ const reversed = index % 2 === 1;
             rel="noopener noreferrer"
             class="font-medium text-accent underline decoration-accent/30 underline-offset-4 hover:decoration-accent"
           >
-            „3D Hypercube" aplikacija Android
+            {course.appLinkLabel}
           </a>
         </p>
       )
@@ -81,11 +79,11 @@ const reversed = index % 2 === 1;
 
     <dl class="mt-6 grid gap-3 rounded-xl bg-surface p-4 text-sm sm:grid-cols-2">
       <div>
-        <dt class="font-semibold text-ink">Formatas</dt>
+        <dt class="font-semibold text-ink">{labels.format}</dt>
         <dd class="text-ink-muted">{course.format}</dd>
       </div>
       <div class="sm:col-span-2">
-        <dt class="font-semibold text-ink">Tvarkaraštis</dt>
+        <dt class="font-semibold text-ink">{labels.schedule}</dt>
         <dd class="text-ink-muted">{course.schedule}</dd>
       </div>
     </dl>

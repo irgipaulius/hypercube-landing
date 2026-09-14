@@ -1,5 +1,13 @@
 ---
-import { site, nav } from "../data/site";
+import { getNavItems, localePath, siteAssets, type Locale, type Translation } from "../i18n";
+
+interface Props {
+  locale: Locale;
+  t: Translation;
+}
+
+const { locale, t } = Astro.props;
+const nav = getNavItems(t, locale);
 const year = new Date().getFullYear();
 ---
 
@@ -8,21 +16,19 @@ const year = new Date().getFullYear();
     <div class="grid gap-10 md:grid-cols-3">
       <div>
         <div class="flex items-center gap-3">
-          <img src={site.logo} alt="" width="40" height="40" class="rounded-lg opacity-90" />
-          <span class="font-display text-lg font-semibold text-white">{site.name}</span>
+          <img src={siteAssets.logo} alt="" width="40" height="40" class="rounded-lg opacity-90" />
+          <span class="font-display text-lg font-semibold text-white">{t.site.name}</span>
         </div>
-        <p class="mt-4 text-sm leading-relaxed text-white/60">{site.description}</p>
+        <p class="mt-4 text-sm leading-relaxed text-white/60">{t.site.description}</p>
       </div>
 
       <div>
-        <h2 class="text-xs font-semibold uppercase tracking-wider text-white/40">Navigacija</h2>
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-white/40">{t.common.footerNav}</h2>
         <ul class="mt-4 space-y-2">
           {
             nav.map(({ href, label }) => (
               <li>
-                <a href={href} class="text-sm text-white/70 transition hover:text-gold-light">
-                  {label}
-                </a>
+                <a href={href} class="text-sm text-white/70 transition hover:text-gold-light">{label}</a>
               </li>
             ))
           }
@@ -30,15 +36,13 @@ const year = new Date().getFullYear();
       </div>
 
       <div>
-        <h2 class="text-xs font-semibold uppercase tracking-wider text-white/40">Metodika</h2>
-        <p class="mt-4 text-sm leading-relaxed text-white/60">
-          Autorius {site.author}. Vaizduotės ir dėmesio valdymo praktikos tiems, kas nori SAU leisti daugiau.
-        </p>
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-white/40">{t.common.footerAbout}</h2>
+        <p class="mt-4 text-sm leading-relaxed text-white/60">{t.footer.methodology}</p>
       </div>
     </div>
 
     <div class="mt-10 border-t border-white/10 pt-6 text-center text-xs text-white/40">
-      © {year} {site.name}. Visos teisės saugomos.
+      © {year} {t.site.name}
     </div>
   </div>
 </footer>

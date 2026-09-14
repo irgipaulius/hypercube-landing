@@ -1,30 +1,37 @@
 ---
-import { site, nav } from "../data/site";
+import LanguageSwitcher from "./LanguageSwitcher.astro";
+import { getNavItems, localePath, siteAssets, type Locale, type Translation } from "../i18n";
 
+interface Props {
+  locale: Locale;
+  t: Translation;
+}
+
+const { locale, t } = Astro.props;
 const currentPath = Astro.url.pathname;
+const nav = getNavItems(t, locale);
 ---
 
 <header class="sticky top-0 z-50 border-b border-border/80 bg-surface/90 backdrop-blur-md">
-  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-4">
-    <a href="/" class="group flex items-center gap-3 no-underline">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-3 px-5 py-4">
+    <a href={localePath(locale)} class="group flex shrink-0 items-center gap-3 no-underline">
       <img
-        src={site.logo}
-        alt={site.name}
+        src={siteAssets.logo}
+        alt={t.common.logoAlt}
         width="44"
         height="44"
         class="rounded-xl shadow-sm transition group-hover:scale-105"
       />
-      <span class="hidden font-display text-lg font-semibold text-ink sm:block">{site.name}</span>
+      <span class="hidden font-display text-lg font-semibold text-ink sm:block">{t.site.name}</span>
     </a>
 
-    <nav class="hidden items-center gap-1 md:flex" aria-label="Pagrindinis meniu">
+    <nav class="hidden items-center gap-1 lg:flex" aria-label="Main">
       {
         nav.map(({ href, label }) => {
-          const isActive = href.startsWith("/author")
-            ? currentPath.startsWith("/author")
-            : href === "/" || href.startsWith("/#")
-              ? currentPath === "/"
-              : currentPath.startsWith(href);
+          const isTeam = href.includes("author-and-instructors");
+          const isActive = isTeam
+            ? currentPath.includes("author-and-instructors")
+            : currentPath.startsWith(`/${locale}/`) && !isTeam && href.includes("#") === false && currentPath === localePath(locale);
           return (
             <a
               href={href}
@@ -40,19 +47,23 @@ const currentPath = Astro.url.pathname;
       }
     </nav>
 
-    <details class="relative md:hidden">
-      <summary class="list-none cursor-pointer rounded-lg border border-border bg-surface-elevated px-3 py-2 text-sm font-medium text-ink">
-        Meniu
-      </summary>
-      <nav class="absolute right-0 mt-2 w-56 rounded-xl border border-border bg-surface-elevated p-2 shadow-lg" aria-label="Mobilus meniu">
-        {
-          nav.map(({ href, label }) => (
-            <a href={href} class="block rounded-lg px-3 py-2 text-sm text-ink-muted hover:bg-accent/10 hover:text-accent">
-              {label}
-            </a>
-          ))
-        }
-      </nav>
-    </details>
+    <div class="flex items-center gap-2">
+      <LanguageSwitcher currentLocale={locale} currentPath={currentPath} />
+
+      <details class="relative lg:hidden">
+        <summary class="list-none cursor-pointer rounded-lg border border-border bg-surface-elevated px-3 py-2 text-sm font-medium text-ink">
+          {t.nav.menu}
+        </summary>
+        <nav class="absolute right-0 z-10 mt-2 w-56 rounded-xl border border-border bg-surface-elevated p-2 shadow-lg">
+          {
+            nav.map(({ href, label }) => (
+              <a href={href} class="block rounded-lg px-3 py-2 text-sm text-ink-muted hover:bg-accent/10 hover:text-accent">
+                {label}
+              </a>
+            ))
+          }
+        </nav>
+      </details>
+    </div>
   </div>
 </header>
