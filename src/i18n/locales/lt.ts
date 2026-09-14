@@ -147,6 +147,7 @@ const t: Translation = {
     footerAbout: "Metodika",
     footerTagline: "Vaizduotės ir dėmesio valdymo praktikos.",
     logoAlt: "Hypercube logotipas",
+    language: "Kalba",
   },
   footer: {
     methodology: "Autorius Tomas Jacinkevičius. Vaizduotės ir dėmesio valdymo praktikos tiems, kas nori SAU leisti daugiau.",

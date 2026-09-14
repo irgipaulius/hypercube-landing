@@ -1,27 +1,88 @@
 ---
-import { localeLabels, locales, switchLocalePath, type Locale } from "../i18n";
+import {
+  localeFlags,
+  localeLabels,
+  localeLabelsEn,
+  locales,
+  switchLocalePath,
+  type Locale,
+} from "../i18n";
 
 interface Props {
   currentLocale: Locale;
   currentPath: string;
+  languageLabel: string;
 }
 
-const { currentLocale, currentPath } = Astro.props;
+const { currentLocale, currentPath, languageLabel } = Astro.props;
 ---
 
-<div class="flex items-center gap-1">
-  <label for="lang-select" class="sr-only">Kalba / Language</label>
-  <select
-    id="lang-select"
-    class="rounded-lg border border-border bg-surface-elevated px-2 py-1.5 text-xs font-medium text-ink-muted transition hover:border-accent focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20 md:text-sm"
-    onchange="window.location.href = this.value"
+<details class="lang-switcher relative">
+  <summary
+    class="flex cursor-pointer list-none items-center gap-1.5 rounded-lg border border-border bg-surface-elevated px-2.5 py-2 text-ink shadow-sm transition hover:border-accent/40 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/30"
+    aria-label={languageLabel}
+  >
+    <svg
+      class="h-4 w-4 shrink-0 text-accent"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      aria-hidden="true"
+    >
+      <circle cx="12" cy="12" r="10"></circle>
+      <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+    </svg>
+    <span class="text-lg leading-none" aria-hidden="true">{localeFlags[currentLocale]}</span>
+    <span class="text-xs font-bold uppercase tracking-wide text-ink-muted">{currentLocale}</span>
+    <svg class="h-3.5 w-3.5 text-ink-muted" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+      <path
+        fill-rule="evenodd"
+        d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.94a.75.75 0 111.08 1.04l-4.24 4.5a.75.75 0 01-1.08 0l-4.24-4.5a.75.75 0 01.02-1.06z"
+        clip-rule="evenodd"></path>
+    </svg>
+  </summary>
+
+  <div
+    class="absolute right-0 z-50 mt-2 w-56 overflow-hidden rounded-xl border border-border bg-surface-elevated py-1 shadow-xl"
+    role="listbox"
+    aria-label={languageLabel}
   >
     {
-      locales.map((code) => (
-        <option value={switchLocalePath(currentPath, code)} selected={code === currentLocale}>
-          {localeLabels[code]}
-        </option>
-      ))
+      locales.map((code) => {
+        const active = code === currentLocale;
+        return (
+          <a
+            href={switchLocalePath(currentPath, code)}
+            role="option"
+            aria-selected={active}
+            class:list={[
+              "flex items-center gap-3 px-3 py-2.5 text-sm transition",
+              active ? "bg-accent/10 text-accent" : "text-ink hover:bg-black/5",
+            ]}
+          >
+            <span class="text-xl leading-none" aria-hidden="true">{localeFlags[code]}</span>
+            <span class="min-w-0 flex-1">
+              <span class="block font-medium leading-tight">{localeLabels[code]}</span>
+              <span class="block text-xs text-ink-muted">{localeLabelsEn[code]}</span>
+            </span>
+            {active && (
+              <svg class="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path
+                  fill-rule="evenodd"
+                  d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            )}
+          </a>
+        );
+      })
     }
-  </select>
-</div>
+  </div>
+</details>
+
+<style>
+  .lang-switcher summary::-webkit-details-marker {
+    display: none;
+  }
+</style>

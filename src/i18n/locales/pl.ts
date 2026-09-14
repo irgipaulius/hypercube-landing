@@ -147,6 +147,7 @@ const t: Translation = {
     footerAbout: "Metodyka",
     footerTagline: "Praktyki zarządzania wyobraźnią i uwagą.",
     logoAlt: "Logo Hypercube",
+    language: "Język",
   },
   footer: {
     methodology: "Autor Tomas Jacinkevičius. Praktyki zarządzania wyobraźnią i uwagą dla tych, którzy chcą pozwolić sobie na więcej.",

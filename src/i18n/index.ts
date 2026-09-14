@@ -1,5 +1,5 @@
 import type { CourseTranslation, Locale, Translation } from "./types";
-import { defaultLocale, htmlLang, localeLabels, locales } from "./types";
+import { defaultLocale, htmlLang, localeFlags, localeLabels, localeLabelsEn, locales } from "./types";
 import { courseMedia, personContacts, personPhotos, siteAssets } from "./media";
 
 import lt from "./locales/lt";
@@ -10,7 +10,7 @@ import cz from "./locales/cz";
 import sk from "./locales/sk";
 import pl from "./locales/pl";
 
-export { locales, defaultLocale, localeLabels, htmlLang, siteAssets };
+export { locales, defaultLocale, localeLabels, localeLabelsEn, localeFlags, htmlLang, siteAssets };
 export type { Locale, Translation, CourseTranslation };
 
 const translations: Record<Locale, Translation> = { lt, en, ru, uk, cz, sk, pl };

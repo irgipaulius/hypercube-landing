@@ -13,6 +13,27 @@ export const localeLabels: Record<Locale, string> = {
   pl: "Polski",
 };
 
+/** English names — helps visitors who don't read the native label */
+export const localeLabelsEn: Record<Locale, string> = {
+  lt: "Lithuanian",
+  en: "English",
+  ru: "Russian",
+  uk: "Ukrainian",
+  cz: "Czech",
+  sk: "Slovak",
+  pl: "Polish",
+};
+
+export const localeFlags: Record<Locale, string> = {
+  lt: "🇱🇹",
+  en: "🇬🇧",
+  ru: "🇷🇺",
+  uk: "🇺🇦",
+  cz: "🇨🇿",
+  sk: "🇸🇰",
+  pl: "🇵🇱",
+};
+
 export const htmlLang: Record<Locale, string> = {
   lt: "lt",
   en: "en",
@@ -104,6 +125,7 @@ export type Translation = {
     footerAbout: string;
     footerTagline: string;
     logoAlt: string;
+    language: string;
   };
   footer: {
     methodology: string;

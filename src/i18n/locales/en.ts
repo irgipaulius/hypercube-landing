@@ -147,6 +147,7 @@ const t: Translation = {
     footerAbout: "Methodology",
     footerTagline: "Practices of imagination and attention management.",
     logoAlt: "Hypercube logo",
+    language: "Language",
   },
   footer: {
     methodology: "Author Tomas Jacinkevičius. Practices of imagination and attention management for those who want to allow themselves more.",

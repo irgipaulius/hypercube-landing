@@ -147,6 +147,7 @@ const t: Translation = {
     footerAbout: "Методика",
     footerTagline: "Практики управления воображением и вниманием.",
     logoAlt: "Логотип Hypercube",
+    language: "Язык",
   },
   footer: {
     methodology: "Автор Tomas Jacinkevičius. Практики управления воображением и вниманием для тех, кто хочет позволить себе больше.",
