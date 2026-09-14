@@ -9,8 +9,8 @@ Static marketing site for [hypercube.lt](https://hypercube.lt) — the Hypercube
 
 - **Stack:** Astro 5, Tailwind CSS v4, TypeScript, static output
 - **Repo:** https://github.com/irgipaulius/hypercube-landing
-- **Live preview:** https://landing.hypercube.lt (also https://hypercube-landing.pages.dev)
-- **Production site (WordPress, being replaced):** https://hypercube.lt
+- **Production:** https://hypercube.lt (also https://hypercube-landing.pages.dev)
+- **Staging:** https://landing.hypercube.lt
 
 ## Deploy — IMPORTANT
 
@@ -124,7 +124,7 @@ Place in `public/wp-content/uploads/` or `public/`, reference path in `src/i18n/
 - Keep components small and prop-driven (`locale`, `t`)
 - Match existing Tailwind + design token patterns in `src/styles/global.css`
 - Run `npm run validate:i18n && npm run build` before pushing
-- Preserve `/3d/login.php` on production hypercube.lt (separate backend — not this repo)
+- Preserve `/3d/login.php` — proxied to home server via `functions/_middleware.js` (`cf.resolveOverride` → `78.62.188.61`). API/DB stay on TrueNAS; do not remove this proxy.
 
 ## Contact / team data
 

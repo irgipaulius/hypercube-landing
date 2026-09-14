@@ -1,4 +1,7 @@
-/** Cloudflare Pages — smart locale redirect for bare `/` */
+/** Cloudflare Pages middleware — API proxy + locale redirect */
+const HOME_ORIGIN_IP = "78.62.188.61";
+const PUBLIC_HOST = "hypercube.lt";
+
 const COUNTRY_TO_LOCALE = {
   LT: "lt",
   PL: "pl",
@@ -51,8 +54,31 @@ function detectLocale(request) {
   return "lt";
 }
 
+function isApiPath(pathname) {
+  return pathname.startsWith("/3d/") || pathname.startsWith("/4d/");
+}
+
+/** Proxy app API to home nginx — same URL, DB and Node stay on TrueNAS */
+async function proxyToHomeServer(request, url) {
+  const upstream = new URL(url.pathname + url.search, `https://${PUBLIC_HOST}`);
+  const headers = new Headers(request.headers);
+  headers.set("Host", PUBLIC_HOST);
+
+  return fetch(upstream.toString(), {
+    method: request.method,
+    headers,
+    body: request.method === "GET" || request.method === "HEAD" ? undefined : request.body,
+    redirect: "manual",
+    cf: { resolveOverride: HOME_ORIGIN_IP },
+  });
+}
+
 export async function onRequest(context) {
   const url = new URL(context.request.url);
+
+  if (isApiPath(url.pathname)) {
+    return proxyToHomeServer(context.request, url);
+  }
 
   if (url.pathname === "/" || url.pathname === "/index.html") {
     const locale = detectLocale(context.request);
