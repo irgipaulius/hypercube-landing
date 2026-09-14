@@ -28,12 +28,9 @@ node scripts/generate-pages.mjs   # regenerate src/pages from JSON
 
 ## Deploy
 
-Push to `main` → Cloudflare Pages builds automatically.
+Push to `main` → Cloudflare Pages builds automatically from GitHub (no wrangler).
 
-Build settings (Cloudflare dashboard):
-- **Build command:** `npm run build`
-- **Output directory:** `dist`
-- **Node version:** 20+
+See [DEPLOY.md](./DEPLOY.md) for details.
 
 ## Project layout
 
