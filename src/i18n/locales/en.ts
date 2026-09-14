@@ -113,10 +113,26 @@ const t: Translation = {
     },
   ],
   testimonials: [
-    { author: "Liudmila", quote: "The methodology helps develop active self-regulation skills and access the desired quality of energy in real situations." },
-    { author: "Vika", quote: "The methodology has no limits — it's easy and playful to use. What matters most is seeing where your attention goes." },
-    { author: "Eglė", quote: "I learned to instantly arrive in the here and now, to expand inner space. Highly recommended." },
-    { author: "Lina", quote: "Minimum theory, maximum practice. Works excellently online." },
+    {
+      author: "Liudmila",
+      quote:
+        "The Hypercube methodology helps you build active, dynamic self-regulation skills — so in real life you can have the quality of energy you need to meet life's challenges. Thanks to the brain's neuroplasticity, Hypercube practices let you shift into inner self-direction and push back against manipulative outside influence — especially important as virtual reality expands. Guided imagination and structured, mindful attention are a path to the luxury of systems thinking for those who want to allow themselves more.",
+    },
+    {
+      author: "Vika",
+      quote:
+        "The Hypercube methodology has no limits — it's full of possibilities. It's wonderfully easy and playful to use. What matters most is learning to 'steer' your attention — or rather, to see where it goes and whether that's truly what you want right now; sometimes it's worth widening your attention and redirecting it where you choose. Thank you, Gita Ramana, for a practical skill that expands what's possible for me.",
+    },
+    {
+      author: "Eglė",
+      quote:
+        "During this course I learned to arrive instantly in the here and now, to expand my inner space and reshape it as I wish. I learned to truly draw on humanity's accumulated experience to enrich my world. My body is grateful too — this methodology lets you activate it pleasantly, even heal it. I highly recommend it — a big THANK YOU!",
+    },
+    {
+      author: "Lina",
+      quote:
+        "A fascinating course and methodology that can powerfully train your imagination. With a guided imagination, you can live from your dreams and fresh impulses. Here there's minimum theory and maximum practice, and every lesson is something new and engaging — you won't be stuck repeating the same thing :))) I also love that we work not only with imagination but with physical sensation. Wishing you joyful discoveries! And by the way — it works brilliantly online :)))",
+    },
   ],
   author: {
     id: "author",

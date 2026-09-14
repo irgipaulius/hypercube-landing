@@ -113,10 +113,26 @@ const t: Translation = {
     },
   ],
   testimonials: [
-    { author: "Liudmila", quote: "Metodyka pomaga uformować umiejętności aktywnej samoregulacji i mieć energię pożądanej jakości w realnych sytuacjach." },
-    { author: "Vika", quote: "Metodyka nie ma granic — korzysta się z niej łatwo i w zabawny sposób. Najważniejsze to widzieć, dokąd kieruje się uwaga." },
-    { author: "Eglė", quote: "Nauczyłam się natychmiast być tu i teraz, rozszerzać wewnętrzną przestrzeń. Bardzo polecam." },
-    { author: "Lina", quote: "Minimum teorii, maksimum praktyki. Świetnie działa online." },
+    {
+      author: "Liudmila",
+      quote:
+        "Metodyka Hypercube pomaga wykształcić umiejętności aktywnej, dynamicznej samoregulacji — aby w realnym życiu mieć energię o pożądanej jakości, potrzebną do stawiania czoła wyzwaniom. Dzięki neuroplastyczności mózgu praktyki Hypercube pozwalają wejść w tryb wewnętrznego kierowania i przeciwstawiać się manipulacyjnemu wpływowi z zewnątrz — szczególnie ważne w czasach rosnącej wirtualnej rzeczywistości. Sterowana wyobraźnia i ustrukturyzowana, świadoma uwaga — to droga do luksusu myślenia systemowego dla tych, którzy chcą pozwolić sobie na więcej.",
+    },
+    {
+      author: "Vika",
+      quote:
+        "Metodyka Hypercube nie ma granic — jest pełna możliwości. Korzysta się z niej wyjątkowo łatwo i w zabawny sposób. Przecież najważniejsze to „kierować” swoją uwagą — a właściwie widzieć, dokąd zmierza i czy to naprawdę jest to, czego teraz chcę; czasem warto poszerzyć uwagę i skierować ją tam, gdzie się chce. Dziękuję, Gita Ramana, za praktyczną umiejętność, która poszerza moje możliwości.",
+    },
+    {
+      author: "Eglė",
+      quote:
+        "Podczas tego kursu nauczyłam się natychmiast być tu i teraz, poszerzać swoją wewnętrzną przestrzeń i zmieniać ją tak, jak sama chcę. Nauczyłam się naprawdę korzystać z ludzkiego doświadczenia, wzbogacając swój świat. Ciało też dziękuje — ta metodyka pozwala przyjemnie je aktywować, a nawet uzdrawiać. Bardzo polecam — wielkie DZIĘKUJĘ!",
+    },
+    {
+      author: "Lina",
+      quote:
+        "Bardzo ciekawe szkolenie i sama metodyka, dzięki której można mocno rozwinąć wyobraźnię. A gdy masz wyobraźnię pod kontrolą — możesz żyć według swoich marzeń i nowych impulsów. Minimum teorii, maksimum praktyki — i świetnie, że każda lekcja jest inna, nowa, ciekawa; na pewno nie będzie nudno przy tym samym :))) Jeszcze wspaniale, że ćwiczymy nie tylko z wyobraźnią, ale i z odczuciami ciała. Życzę radosnych przeżyć i odkryć! A przy okazji — online działa świetnie :)))",
+    },
   ],
   author: {
     id: "author",

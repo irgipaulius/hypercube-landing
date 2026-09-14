@@ -113,10 +113,26 @@ const t: Translation = {
     },
   ],
   testimonials: [
-    { author: "Liudmila", quote: "Metodika padeda suformuoti aktyvios savireguliacijos įgūdžius ir turėti norimos kokybės energijos realiose situacijose." },
-    { author: "Vika", quote: "Metodika neturi ribų — naudoti lengva ir žaisminga. Svarbiausia matyti, kur krypsta dėmesys." },
-    { author: "Eglė", quote: "Išmokau akimirksniu atsidurti čia ir dabar, išplėsti vidinę erdvę. Labai rekomenduoju." },
-    { author: "Lina", quote: "Minimum teorijos, maksimum praktikų. Puikiai veikia online." },
+    {
+      author: "Liudmila",
+      quote:
+        "Metodika „Hypercube“ padeda suformuoti aktyvios dinamiškos savireguliacijos įgūdžius, skirtus realiose situacijose turėti norimos kokybės energijos, reikalingos reaguoti į gyvenimo iššūkius. Dėka žmogaus smegenų neuroplastiškumo metodikos „Hypercube“ praktikos leidžia pereiti į vidinio valdymo rėžimą ir atsverti manipuliatyvų išorinio valdymo poveikį, kas ypač aktualu virtualios realybės plėtros sąlygomis. Valdoma vaizduotė ir struktūruotas sąmoningas dėmesingumas – kelias į sisteminio mąstymo prabangą tiems, kas nori SAU leisti daugiau.",
+    },
+    {
+      author: "Vika",
+      quote:
+        "„Hiperkubo“ metodika neturi ribų, ji pilna galimybių. Naudoti ypač lengva ir žaisminga. Juk vis tik svarbiausia „valdyti“ savo dėmesį, o gal tiksliau sakant matyti, kur jis krypsta ir ar tai tikrai tai, ko noriu šiuo metu, nes kartais verta dėmesį praplėsti ir nukreipti norima linkme. Ačiū Gita Ramana už praktinį įgūdį, kuris leidžia praplėsti savo galimybes.",
+    },
+    {
+      author: "Eglė",
+      quote:
+        "Šio kurso metu išmokau akimirksniu atsidurti čia ir dabar, išplėsti savo vidinę erdvę, keisti ją taip kaip noriu pati, išmokau realiai pasinaudoti žmonijos sukaupta patirtimi praturtindama savo pasaulį. Kūnas taip pat dėkoja, nes ši metodika leidžia be galo maloniai jį suaktyvinti ir gal net gydyti. Labai rekomenduoju ir didelis AČIŪ!",
+    },
+    {
+      author: "Lina",
+      quote:
+        "Labai įdomus mokymas ir pati metodika, kurios dėka galite stipriai išlavinti savo vaizduotę. O jei turi valdomą vaizduotę, gali gyventi pagal savo svajones ir naujus impulsus. Šiame mokyme minimum teorijos ir maksimum praktikų, ir labai įdomu, kad kiekviena pamoka yra vis kita, nauja, įdomi — tikrai nereikės nuobodžiauti tam pačiam :))) Dar labai puiku, kad praktikuojama ne tik su vaizduote, bet ir su pojūčiais. Linkiu smagių patyrimų ir atradimų! Ir beje, puikiai veikia online :)))",
+    },
   ],
   author: {
     id: "author",

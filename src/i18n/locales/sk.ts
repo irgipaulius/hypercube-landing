@@ -113,10 +113,26 @@ const t: Translation = {
     },
   ],
   testimonials: [
-    { author: "Liudmila", quote: "Metodika pomáha formovať zručnosti aktívnej sebaregulácie a mať energiu požadovanej kvality v reálnych situáciách." },
-    { author: "Vika", quote: "Metodika nemá hraníc — používa sa ľahko a hravo. Najdôležitejšie je vidieť, kam smeruje pozornosť." },
-    { author: "Eglė", quote: "Naučila som sa okamžite byť tu a teraz, rozširovať vnútorný priestor. Veľmi odporúčam." },
-    { author: "Lina", quote: "Minimum teórie, maximum praxe. Skvele funguje online." },
+    {
+      author: "Liudmila",
+      quote:
+        "Metodika Hypercube pomáha vytvoriť zručnosti aktívnej, dynamickej sebaregulácie — aby ste v reálnom živote mali energiu potrebnej kvality na reakciu na životné výzvy. Vďaka neuroplasticite mozgu praktiky Hypercube umožňujú prejsť do režimu vnútorného riadenia a vzdorovať manipulatívnemu vonkajšiemu vplyvu — obzvlášť aktuálne v podmienkach rastúcej virtuálnej reality. Ovládaná predstavivosť a štruktúrovaná vedomá pozornosť — cesta k luxusu systémového myslenia pre tých, čo si chcú dovoliť viac.",
+    },
+    {
+      author: "Vika",
+      quote:
+        "Metodika Hypercube nemá hraníc — je plná možností. Používa sa obzvlášť ľahko a hravo. Veď najdôležitejšie je „riadiť“ svoju pozornosť — alebo presnejšie vidieť, kam smeruje a či je to naozaj to, čo práve teraz chcem; niekedy stojí za to pozornosť rozšíriť a nasmerovať ju, kam si želám. Ďakujem, Gita Ramana, za praktickú zručnosť, ktorá rozširuje moje možnosti.",
+    },
+    {
+      author: "Eglė",
+      quote:
+        "Počas tohto kurzu som sa naučila okamžite byť tu a teraz, rozšíriť svoj vnútorný priestor a meniť ho, ako sama chcem. Naučila som sa skutočne využiť ľudskú skúsenosť a obohacovať svoj svet. Telo tiež ďakuje — táto metodika umožňuje príjemne ho aktivovať a dokonca liečiť. Veľmi odporúčam — veľké ĎAKUJEM!",
+    },
+    {
+      author: "Lina",
+      quote:
+        "Veľmi zaujímavé školenie a samotná metodika, vďaka ktorej môžete silno rozvinúť svoju predstavivosť. A keď máte predstavivosť pod kontrolou, môžete žiť podľa svojich snov a nových impulzov. Minimum teórie, maximum praxe — a skvelé, že každá lekcia je iná, nová, zaujímavá; rozhodne sa nebudete nudiť stále tým istým :))) Ešte skvelé, že cvičíme nielen s predstavivosťou, ale aj s pocitovým vnímaním. Prajem radostné prežívania a objavy! A mimochodom — online to funguje skvele :)))",
+    },
   ],
   author: {
     id: "author",
