@@ -1,188 +1,117 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SectionHeading from "../components/SectionHeading.astro";
+import CourseCard from "../components/CourseCard.astro";
+import TestimonialSlider from "../components/TestimonialSlider.astro";
+import { site, intro, courses, testimonials } from "../data/site";
 ---
 
-<BaseLayout title="Hypercube" description="Hypercube">
-  <article class="wp-content">
-    		<div data-elementor-type="wp-page" data-elementor-id="7" class="elementor elementor-7" data-elementor-post-type="page">
-				<div class="elementor-element elementor-element-47bea42 e-flex e-con-boxed e-con e-parent" data-id="47bea42" data-element_type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-68a76a8 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="68a76a8" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<h1>Tiems, kas nori SAU leisti daugiau</h1>						</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-e8b809d e-flex e-con-boxed e-con e-parent" data-id="e8b809d" data-element_type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-d34c9bb animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="d34c9bb" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:700}" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p style="text-align: center;"><b>Žmogaus vidinių resursų valdymo metodika “Hypercube”</b></p>						</div>
-				</div>
-				<div class="elementor-element elementor-element-48cbc4f animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="48cbc4f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:700}" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p style="text-align: center;"><span style="font-weight: 400;">(autorius Tomas Jacinkevičius)</span></p>						</div>
-				</div>
-				<div class="elementor-element elementor-element-df299e8 animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="df299e8" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:700}" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p><span style="font-weight: 400;">“Hypercube” metodika skirta susipažinti su žmogaus vinidių resursų potencialu, įgyti jo atskleidimui skirtus instrumentus ir sukurti vidinio valdymo sistemą. Vaizduotės ir dėmesio valdymo praktikos lavina erdvinį ir vizualinį intelektus bei daugiamatį suvokimą. Išugdyti aktyvios savireguliacijos įgūdžiai padeda atsverti išorinio valdymo poveikį ir turėti norimą kiekį bei kokybę energijos, reikalingos tiems, kas nori SAU leisti daugiau.</span></p>
-<p><span style="font-weight: 400;">Metodikos pagrindą sudaro skirtingų vienas kitą papildančių kursų sistema. Kiekvienas kursas yra savipakankamas, vysto atitinkamus įgūdžius, suformuoja skirtingo lygio instrumentus ir praplečia savireguliacijos bei sąveikos su žmonėmis ir pasauliu galimybes. </span></p>						</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-4e2587f e-flex e-con-boxed e-con e-parent" data-id="4e2587f" data-element_type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-42c9131 elementor-widget elementor-widget-text-editor" data-id="42c9131" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<h1><span style="color: #000000;">Kursai</span></h1>						</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-73352c6 e-con-full e-flex e-con e-parent" data-id="73352c6" data-element_type="container">
-		<div class="elementor-element elementor-element-40fb689 e-con-full e-flex e-con e-child" data-id="40fb689" data-element_type="container">
-		<div class="elementor-element elementor-element-f00b88d e-con-full e-flex e-con e-child" data-id="f00b88d" data-element_type="container">
-				<div class="elementor-element elementor-element-1bcfca4 elementor-widget elementor-widget-video" data-id="1bcfca4" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;mute&quot;:&quot;yes&quot;}" data-widget_type="video.default">
-				<div class="elementor-widget-container">
-					<div class="e-hosted-video elementor-wrapper elementor-open-inline">
-					<video class="elementor-video" src="/wp-content/uploads/2022/09/pavNR1.mp4" autoplay="" loop="" muted="muted" playsinline="" controlsList="nodownload"></video>
-				</div>
-				</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-da07c01 elementor-widget elementor-widget-heading" data-id="da07c01" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">„Tesseract“</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-db780e3 elementor-widget elementor-widget-text-editor" data-id="db780e3" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p><span style="font-weight: 400;">Pirmasis žingsnis į “Hypercube” metodiką. Kursą gali lankyti kiekvienas norintis. </span></p><p><span style="font-weight: 400;">Praktikų metu lavinamas išskaidytas erdvinis dėmesys ir valdoma vaizduotė, suformuojamas dinamiškas 3-matis vidinis  instrumentas “Tesseract”. Apžiūrėti galite parsisiuntę aplikaciją į savo telefoną “3D Hypercube”. Nuoroda <a href="https://play.google.com/store/apps/details?id=com.praktika.hypercube3d" target="_blank" rel="noopener">Android.</a></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"> Išlavintų įgūdžių ir instrumento “Tesseract” dėka kurso dalyvis gali:</span></p><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">geriau valdyti save ir situacijas,</span></li><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">lengviau strūkturuoti didelius kiekius informacijos,</span></li><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">naudotis apimtinio mastymo galimybėmis,</span></li><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><span style="font-weight: 400;">kūrybiškiau pažvelgti į gyvenimo iššūkius ir rasti efektyviausius sprendimus.</span></span><p> </p></li></ul><p>Formatas: 3 mėnesiai</p><p><span style="font-weight: 400;">12 kassavaitinių susitikimų po 2 valandas  internetu. Savarankiška praktika: kasdien po 3 minutės kiekvieną valandą neatsitraukiant nuo įprastinės veiklos.</span></p>						</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-b76dc56 e-con-full e-flex e-con e-child" data-id="b76dc56" data-element_type="container">
-		<div class="elementor-element elementor-element-f3ae753 e-con-full e-flex e-con e-child" data-id="f3ae753" data-element_type="container">
-				<div class="elementor-element elementor-element-3fa313a elementor-widget elementor-widget-image" data-id="3fa313a" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-													<img loading="lazy" decoding="async" width="220" height="220" src="/wp-content/uploads/2022/09/PavNr2.gif" class="attachment-large size-large wp-image-368" alt="" />													</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-bd8b6b3 elementor-widget elementor-widget-heading" data-id="bd8b6b3" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">„Hypercube“</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-0376050 elementor-widget elementor-widget-text-editor" data-id="0376050" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p><span style="font-weight: 400;">Antrasis žingsnis “Hypercube” metodikos įvaldymui. Kursą gali lankyti tik turintys suformuotą “Tesseract” instrumentą.</span></p><p><span style="font-weight: 400;">Praktikų metu atskleidžiami žmogaus vidiniai kūno, emocinės jausminės sferos, sąmonės,  savitapatumo resursai ir suformuojamas keturmačiais modeliais aprašytas ir valdomas dinamiškas vidinis instrumentas instrumentas “Hypercube”.</span></p><p><span style="font-weight: 400;"> Atskleistų vidinių resursų ir instrumento “Hyperube” dėka kurso dalyvis gali:</span></p><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">turėti reikiamą kiekį norimos kokybės energijos per keliolika sekundžių,</span></li><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">gyventi  energijos pertekliuje,</span></li><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">struktūriškai keisti savo suvokimą</span></li><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">naudotis erdvinio mastymo kokybinių struktūrų metodu galimybėmis, </span></li><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><span style="font-weight: 400;">patirti visumos efektą.</span></span><p> </p></li></ul><p><span style="font-weight: 400;">Formatas: 5 mėnesiai.</span></p><p><span style="font-weight: 400;">20 kassavaitinių susitikimų viso kurso metu 2 valandas internetu. 4 ir 6 dienų gyvi susitikimai intensyvioms situacijoms kurso metu (nesant galimybės atvykti, galima dalyvauti ir online).</span></p>						</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-93ca06c e-con-full e-flex e-con e-child" data-id="93ca06c" data-element_type="container">
-		<div class="elementor-element elementor-element-bd8627b e-con-full e-flex e-con e-child" data-id="bd8627b" data-element_type="container">
-				<div class="elementor-element elementor-element-006ca47 elementor-widget elementor-widget-image" data-id="006ca47" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-													<img loading="lazy" decoding="async" width="220" height="220" src="/wp-content/uploads/2022/09/pavNR3.gif" class="attachment-large size-large wp-image-369" alt="" />													</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-4f5f519 elementor-widget elementor-widget-heading" data-id="4f5f519" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">„Hypersfere“</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-ebbd0b4 elementor-widget elementor-widget-text-editor" data-id="ebbd0b4" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p><span style="font-weight: 400;">Kursą gali lankyti tik įvaldę “Tesseract” ir “Hypercube” instrumentus.</span></p><p><span style="font-weight: 400;">Praktikų metu lavinami jėga ir jautrumas, mokomasi suvokti savo ir kitų subjektyvumą, suformuojami suformuojami dinamiški keturmačiais modeliais aprašyti ir valdomi vidiniai instrumentai. Profesionaliai įvaldę erdviškumą, kurso dalyviai sugeba galingai ir subtiliai sąveikauti su tikrove: tiek išorine, tiek vidine.</span></p><p><span style="font-weight: 400;">F</span><span style="font-weight: 400;">ormatas: 3 mėnesiai.</span></p><p><span style="font-weight: 400;">Kassavaitiniai susitikimai viso kurso metu 2 valandas internetu. 6 dienų gyvas susitikimas intensyviai situacijai kurso metu  (nesant galimybės atvykti, galima dalyvauti ir online).</span></p>						</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-18e8a77 e-con-full e-flex e-con e-child" data-id="18e8a77" data-element_type="container">
-		<div class="elementor-element elementor-element-906bd0c e-con-full e-flex e-con e-child" data-id="906bd0c" data-element_type="container">
-				<div class="elementor-element elementor-element-b65cbad elementor-widget elementor-widget-video" data-id="b65cbad" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;mute&quot;:&quot;yes&quot;}" data-widget_type="video.default">
-				<div class="elementor-widget-container">
-					<div class="e-hosted-video elementor-wrapper elementor-open-inline">
-					<video class="elementor-video" src="/wp-content/uploads/2022/09/PavNr4.mp4" autoplay="" loop="" muted="muted" playsinline="" controlsList="nodownload"></video>
-				</div>
-				</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-5136575 elementor-widget elementor-widget-heading" data-id="5136575" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">„Trans-Former“</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-a9bf089 elementor-widget elementor-widget-text-editor" data-id="a9bf089" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p><span style="font-weight: 400;">Kursą gali lankyti tik įvaldę “Tesseract”, “Hypercube” ir “Hypersfere” instrumentus.</span></p><p>Suformuojami didelio sudėtingumo ir abstrakčių struktūrų daugiaapimtiniai instrumentai skirti rezonansinėms sąveikoms su įvairiomis vidinės ir išorinės tikrovių apimtimis.</p><p><span style="color: var( --e-global-color-text ); font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align); font-size: 1rem;">Formatas: 3 mėnesiai.</span></p><p><span style="font-weight: 400;">Kassavaitiniai susitikimai viso kurso metu 2 valandas internetu. 6 dienų gyvas susitikimas intensyviai situacijai kurso metu  (nesant galimybės atvykti, galima dalyvauti ir online).</span></p>						</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-0cb126c e-flex e-con-boxed e-con e-parent" data-id="0cb126c" data-element_type="container" id="next2">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-a3d8a95 elementor-widget elementor-widget-text-editor" data-id="a3d8a95" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<h1><span style="color: #000000;">Atsiliepimai</span></h1>						</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-9dcf748 e-flex e-con-boxed e-con e-parent" data-id="9dcf748" data-element_type="container" data-settings="{&quot;animation_mobile&quot;:&quot;none&quot;}">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-f0a7e83 elementor-testimonial--skin-bubble elementor-testimonial--mobile-align-center elementor-testimonial--layout-image_inline elementor-testimonial--align-center elementor-arrows-yes elementor-widget elementor-widget-testimonial-carousel" data-id="f0a7e83" data-element_type="widget" data-settings="{&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;slides_per_view&quot;:&quot;1&quot;,&quot;slides_per_view_mobile&quot;:&quot;1&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;slides_to_scroll_mobile&quot;:&quot;1&quot;,&quot;show_arrows&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}" data-widget_type="testimonial-carousel.default">
-				<div class="elementor-widget-container">
-			<link rel="stylesheet" href="/wp-content/plugins/elementor-pro/assets/css/widget-carousel.min.css">		<div class="elementor-swiper">
-			<div class="elementor-main-swiper swiper">
-				<div class="swiper-wrapper">
-											<div class="swiper-slide">
-									<div class="elementor-testimonial">
-							<div class="elementor-testimonial__content">
-					<div class="elementor-testimonial__text">
-						Metodika „Hypercube“ padeda suformuoti aktyvios dinamiškos savireguliacijos įgūdžius, skirtus realiose situacijose turėti norimos kokybės energijos, reikalingos reaguoti į gyvenimo iššūkius.
-Dėka žmogaus smegenų neuroplastiškumo metodikos „Hypercube“ praktikos leidžia pereiti į vidinio valdymo rėžimą ir atsverti manipuliatyvų išorinio valdymo poveikį, kas ypač aktualu virtualios realybės plėtros sąlygomis.
-Valdoma vaizduotė ir struktūruotas sąmoningas dėmesingumas – kelias į sisteminio mąstymo prabangą tiems, kas nori SAU leisti daugiau.
-					</div>
-									</div>
-						<div class="elementor-testimonial__footer">
-								<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Liudmila</span></cite>			</div>
-		</div>
-								</div>
-											<div class="swiper-slide">
-									<div class="elementor-testimonial">
-							<div class="elementor-testimonial__content">
-					<div class="elementor-testimonial__text">
-						"Hiperkubo" metodika neturi ribų, ji pilna galimybių. Naudoti ypač lengva ir žaizminga. Juk vis tik svarbiausia "valdyti" savo dėmesį, o gal tiksliau sakant matyti, kur jis krypsta ir ar tai tikrai tai, ko noriu šiuo metu, nes kartais verta dėmesį praplėsti ir nukreipti norima linkme.
-Ačiū Gita Ramana už praktinį įgūdį, kuris leidžia praplėsti savo galimybes." - Vika					</div>
-									</div>
-						<div class="elementor-testimonial__footer">
-								<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Vika</span></cite>			</div>
-		</div>
-								</div>
-											<div class="swiper-slide">
-									<div class="elementor-testimonial">
-							<div class="elementor-testimonial__content">
-					<div class="elementor-testimonial__text">
-						"Šio kurso metu išmokau akimirksniu atsidurti čia ir dabar, išplėsti savo vidinę erdvę, keisti ją taip kaip noriu pati, išmokau realiai pasinaudoti žmonijos sukaupta patirtimi praturtindama savo pasaulį. Kūnas taip pat dėkoja, nes ši metodika leidžia be galo maloniai jį suaktyvinti ir gal net gydyti. Labai rekomenduoju ir didelis AČIŪ"					</div>
-									</div>
-						<div class="elementor-testimonial__footer">
-								<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Eglė</span></cite>			</div>
-		</div>
-								</div>
-											<div class="swiper-slide">
-									<div class="elementor-testimonial">
-							<div class="elementor-testimonial__content">
-					<div class="elementor-testimonial__text">
-						"Labai įdomus mokymas ir pati metodika, kurios dėka galite stipriai išlavinti savo vaizduotę. O jei turi valdomą vaizduotę, gali gyventi pagal savo svajones ir naujus impulsus Šiame mokyme minimum teorijos ir maksimus praktikų ir labai įdomu, kad kiekviena pamoka yra vis kita, nauja įdomi, tikrai nereikės zūbrinti to pačio :))) Dar labai puiku, kad praktikuojama ne tik su vaizduote, bet ir su pojūčiais. Linkiu smagių patyrimų ir atradimų Ir beje, puikiai veikia online :)))"					</div>
-									</div>
-						<div class="elementor-testimonial__footer">
-								<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Lina</span></cite>			</div>
-		</div>
-								</div>
-									</div>
-																				<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0">
-							<i aria-hidden="true" class="eicon-chevron-left"></i>							<span class="elementor-screen-only">Previous</span>
-						</div>
-						<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0">
-							<i aria-hidden="true" class="eicon-chevron-right"></i>							<span class="elementor-screen-only">Next</span>
-						</div>
-												</div>
-		</div>
-				</div>
-				</div>
-					</div>
-				</div>
-				</div>
-		
-  </article>
+<BaseLayout title={site.name}>
+  <!-- Hero -->
+  <section class="relative overflow-hidden border-b border-border">
+    <div
+      class="pointer-events-none absolute inset-0 opacity-40"
+      aria-hidden="true"
+      style="background-image: radial-gradient(circle at 20% 20%, rgba(91,75,183,0.15), transparent 40%), radial-gradient(circle at 80% 0%, rgba(201,162,39,0.12), transparent 35%);"
+    />
+    <div class="mx-auto grid max-w-6xl items-center gap-10 px-5 py-16 md:grid-cols-2 md:py-24">
+      <div class="animate-fade-up">
+        <p class="mb-4 inline-flex items-center gap-2 rounded-full border border-accent/20 bg-accent/5 px-4 py-1.5 text-sm font-medium text-accent">
+          Vidinių resursų valdymo metodika
+        </p>
+        <h1 class="font-display text-4xl font-semibold leading-tight tracking-tight text-ink md:text-5xl lg:text-6xl">
+          {site.tagline}
+        </h1>
+        <p class="mt-6 max-w-xl text-lg leading-relaxed text-ink-muted">
+          {site.description}
+        </p>
+        <p class="mt-3 text-sm text-ink-muted">Autorius — <span class="font-medium text-ink">{site.author}</span></p>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <a
+            href="#kursai"
+            class="inline-flex items-center rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-accent/25 transition hover:bg-accent-light"
+          >
+            Peržiūrėti kursus
+          </a>
+          <a
+            href="/author-and-instructors/"
+            class="inline-flex items-center rounded-full border border-border bg-surface-elevated px-6 py-3 text-sm font-semibold text-ink transition hover:border-accent hover:text-accent"
+          >
+            Susipažinti su komanda
+          </a>
+        </div>
+      </div>
+
+      <div class="animate-fade-up animate-fade-up-delay-2 relative mx-auto w-full max-w-md">
+        <div class="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-accent/20 to-gold/20 blur-2xl" aria-hidden="true" />
+        <img
+          src={site.logo}
+          alt="Hypercube logotipas"
+          width="550"
+          height="550"
+          class="relative rounded-[2rem] border border-border bg-surface-elevated p-8 shadow-xl"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="apie" class="mx-auto max-w-6xl px-5 py-20 md:py-28">
+    <SectionHeading
+      eyebrow="Apie metodiką"
+      title="Žmogaus vidinių resursų valdymas"
+      description="Vaizduotės ir dėmesio praktikos, lavinančios erdvinį intelektą ir aktyvią savireguliaciją."
+    />
+    <div class="grid gap-6 md:grid-cols-3">
+      {
+        intro.map((paragraph, i) => (
+          <p class="rounded-2xl border border-border bg-surface-elevated p-6 text-ink-muted leading-relaxed shadow-sm">
+            {paragraph}
+          </p>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Courses -->
+  <section id="kursai" class="border-y border-border bg-white/50 py-20 md:py-28">
+    <div class="mx-auto max-w-6xl px-5">
+      <SectionHeading
+        eyebrow="Mokymosi kelias"
+        title="Kursai"
+        description="Kiekvienas kursas papildo ankstesnį — nuo Tesseract iki Trans-Former instrumentų."
+        align="center"
+      />
+      <div class="space-y-10">
+        {courses.map((course, index) => <CourseCard course={course} index={index} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="atsiliepimai" class="mx-auto max-w-4xl px-5 py-20 md:py-28">
+    <SectionHeading
+      eyebrow="Patirtys"
+      title="Atsiliepimai"
+      description="Ką sako metodikos dalyviai."
+      align="center"
+    />
+    <TestimonialSlider items={testimonials} />
+  </section>
+
+  <!-- CTA -->
+  <section class="border-t border-border bg-ink py-16 text-white md:py-20">
+    <div class="mx-auto max-w-3xl px-5 text-center">
+      <h2 class="font-display text-3xl font-semibold md:text-4xl">Pasiruošę pradėti kelionę?</h2>
+      <p class="mt-4 text-white/70">
+        Susisiekite su instruktoriais arba sužinokite daugiau apie metodikos autorių.
+      </p>
+      <a
+        href="/author-and-instructors/"
+        class="mt-8 inline-flex items-center rounded-full bg-gold px-8 py-3 text-sm font-semibold text-ink transition hover:bg-gold-light"
+      >
+        Autorius ir instruktoriai
+      </a>
+    </div>
+  </section>
 </BaseLayout>

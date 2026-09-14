@@ -1,37 +1,35 @@
 ---
+import "@fontsource-variable/dm-sans";
+import "@fontsource-variable/fraunces";
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { site } from "../data/site";
+
 interface Props {
   title: string;
   description?: string;
 }
 
-const { title, description = "Žmogaus vidinių resursų valdymo metodika Hypercube" } = Astro.props;
+const { title, description = site.description } = Astro.props;
+const fullTitle = title === site.name ? `${site.name} — ${site.tagline}` : `${title} — ${site.name}`;
 ---
 
 <!doctype html>
-<html lang="lt-LT">
+<html lang="lt">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <title>{title}</title>
+    <title>{fullTitle}</title>
     <link rel="icon" href="/wp-content/uploads/2023/01/cropped-hypercube-32x32.png" sizes="32x32" />
-    <link rel="stylesheet" href="/styles/site.css" />
+    <link rel="apple-touch-icon" href="/wp-content/uploads/2023/01/cropped-hypercube-180x180.png" />
   </head>
-  <body>
-    <header class="site-header">
-      <a href="/" class="logo">
-        <img src="/wp-content/uploads/2022/09/paveikslelis-i-logo_.png" alt="Hypercube" width="80" height="80" />
-      </a>
-      <nav>
-        <a href="/">Pradžia</a>
-        <a href="/author-and-instructors/">Autorius ir instruktoriai</a>
-      </nav>
-    </header>
-    <main>
+  <body class="min-h-screen flex flex-col">
+    <Header />
+    <main class="flex-1">
       <slot />
     </main>
-    <footer class="site-footer">
-      <p>&copy; {new Date().getFullYear()} Hypercube</p>
-    </footer>
+    <Footer />
   </body>
 </html>

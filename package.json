@@ -7,11 +7,14 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "fetch:wp": "node scripts/fetch-wp-content.mjs",
-    "generate": "node scripts/generate-pages.mjs"
+    "fetch:wp": "node scripts/fetch-wp-content.mjs"
   },
   "dependencies": {
-    "astro": "^5.7.10"
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^5.7.10",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "typescript": "^5.8.3",

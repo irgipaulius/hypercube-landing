@@ -1,0 +1,44 @@
+---
+import { site, nav } from "../data/site";
+const year = new Date().getFullYear();
+---
+
+<footer class="border-t border-border bg-ink text-white/80">
+  <div class="mx-auto max-w-6xl px-5 py-12">
+    <div class="grid gap-10 md:grid-cols-3">
+      <div>
+        <div class="flex items-center gap-3">
+          <img src={site.logo} alt="" width="40" height="40" class="rounded-lg opacity-90" />
+          <span class="font-display text-lg font-semibold text-white">{site.name}</span>
+        </div>
+        <p class="mt-4 text-sm leading-relaxed text-white/60">{site.description}</p>
+      </div>
+
+      <div>
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-white/40">Navigacija</h2>
+        <ul class="mt-4 space-y-2">
+          {
+            nav.map(({ href, label }) => (
+              <li>
+                <a href={href} class="text-sm text-white/70 transition hover:text-gold-light">
+                  {label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-white/40">Metodika</h2>
+        <p class="mt-4 text-sm leading-relaxed text-white/60">
+          Autorius {site.author}. Vaizduotės ir dėmesio valdymo praktikos tiems, kas nori SAU leisti daugiau.
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-10 border-t border-white/10 pt-6 text-center text-xs text-white/40">
+      © {year} {site.name}. Visos teisės saugomos.
+    </div>
+  </div>
+</footer>

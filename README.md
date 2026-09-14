@@ -19,11 +19,14 @@ npm run build      # output → dist/
 npm run preview    # preview production build
 ```
 
-## Re-fetch WordPress content
+## Content
+
+Site copy lives in typed TypeScript: `src/data/site.ts`.
+
+To refresh raw WordPress exports (reference only):
 
 ```bash
-npm run fetch:wp           # pull pages/posts/media from hypercube.lt
-node scripts/generate-pages.mjs   # regenerate src/pages from JSON
+npm run fetch:wp
 ```
 
 ## Deploy

@@ -31,11 +31,7 @@ If the wildcard `*.hypercube.lt` A record conflicts, add an explicit CNAME in Cl
 
 ## Re-fetch WordPress content
 
-```bash
-npm run fetch:wp
-npm run generate
-git add -A && git commit -m "Refresh content from WordPress" && git push
-```
+Edit `src/data/site.ts`, then push to `main`.
 
 ## Build settings (Cloudflare — already configured)
 

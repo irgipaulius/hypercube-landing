@@ -1,0 +1,75 @@
+---
+import type { Person } from "../data/site";
+
+interface Props {
+  person: Person;
+  featured?: boolean;
+}
+
+const { person, featured = false } = Astro.props;
+---
+
+<article
+  class:list={[
+    "flex flex-col overflow-hidden rounded-3xl border border-border bg-surface-elevated shadow-sm",
+    featured && "md:col-span-2 md:grid md:grid-cols-[280px_1fr] md:gap-0",
+  ]}
+>
+  <div class:list={["relative overflow-hidden bg-ink/5", featured ? "min-h-80 md:min-h-full" : "aspect-[3/4]"]}>
+    <img
+      src={person.photo}
+      alt={person.name}
+      class="h-full w-full object-cover object-top"
+      loading="lazy"
+    />
+  </div>
+
+  <div class="flex flex-1 flex-col p-6 md:p-8">
+    <p class="text-sm font-semibold uppercase tracking-wider text-accent">{person.role}</p>
+    <h3 class="mt-1 font-display text-2xl font-semibold text-ink">{person.name}</h3>
+    <p class="mt-2 text-sm text-ink-muted">{person.location}</p>
+
+    {
+      person.bio && (
+        <div class="mt-5 space-y-3 text-sm leading-relaxed text-ink-muted">
+          {person.bio.map((p) => <p>{p}</p>)}
+        </div>
+      )
+    }
+
+    <div class="mt-auto flex flex-wrap gap-3 pt-6">
+      {
+        person.phone && (
+          <a
+            href={`tel:${person.phone.replace(/\s/g, "")}`}
+            class="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium text-ink transition hover:border-accent hover:text-accent"
+          >
+            {person.phone}
+          </a>
+        )
+      }
+      {
+        person.email && (
+          <a
+            href={`mailto:${person.email}`}
+            class="inline-flex items-center rounded-full bg-accent px-4 py-2 text-sm font-medium text-white transition hover:bg-accent-light"
+          >
+            El. paštas
+          </a>
+        )
+      }
+      {
+        person.facebook && (
+          <a
+            href={person.facebook}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center rounded-full border border-border px-4 py-2 text-sm font-medium text-ink-muted transition hover:border-accent hover:text-accent"
+          >
+            Facebook
+          </a>
+        )
+      }
+    </div>
+  </div>
+</article>
