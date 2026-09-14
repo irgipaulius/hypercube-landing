@@ -45,11 +45,12 @@ function localeFromAcceptLanguage(header) {
 }
 
 function detectLocale(request) {
-  const fromHeader = localeFromAcceptLanguage(request.headers.get("Accept-Language"));
-  if (fromHeader) return fromHeader;
-
+  // Geo first — Lithuanian site; being in LT beats an English browser setting
   const country = request.cf?.country;
   if (country && COUNTRY_TO_LOCALE[country]) return COUNTRY_TO_LOCALE[country];
+
+  const fromHeader = localeFromAcceptLanguage(request.headers.get("Accept-Language"));
+  if (fromHeader) return fromHeader;
 
   return "lt";
 }
