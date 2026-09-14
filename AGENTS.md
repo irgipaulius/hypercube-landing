@@ -124,7 +124,7 @@ Place in `public/wp-content/uploads/` or `public/`, reference path in `src/i18n/
 - Keep components small and prop-driven (`locale`, `t`)
 - Match existing Tailwind + design token patterns in `src/styles/global.css`
 - Run `npm run validate:i18n && npm run build` before pushing
-- Preserve `/3d/login.php` — proxied to home server via `functions/_middleware.js` (`cf.resolveOverride` → `78.62.188.61`). API/DB stay on TrueNAS; do not remove this proxy.
+- Preserve `/3d/login.php` — proxied by zone Worker `hypercube-api-proxy` (`workers/hypercube-api-proxy.js`). After changing it, run `npx wrangler deploy --config wrangler.api-proxy.toml`. API/DB stay on TrueNAS.
 
 ## Contact / team data
 

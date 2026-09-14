@@ -2,51 +2,59 @@
 
 ## Workflow
 
-**Git push → Cloudflare Pages auto-build.** No wrangler deploy for site content.
+**Git push → Cloudflare Pages auto-build** for the static site.
+
+**API proxy Worker** (one-time / when `workers/` changes):
 
 ```bash
-git add -A
-git commit -m "your message"
-git push origin main
+npx wrangler deploy --config wrangler.api-proxy.toml
 ```
-
-Cloudflare clones `main` from GitHub, runs `npm run build`, deploys `dist/` + `functions/`.
-
-Monitor builds: [Cloudflare Pages dashboard](https://dash.cloudflare.com/) → Workers & Pages → hypercube-landing → Deployments
-
-## URLs
-
-| URL | Purpose |
-|-----|---------|
-| https://hypercube.lt | Production (Pages + API proxy) |
-| https://www.hypercube.lt | Production alias |
-| https://hypercube-landing.pages.dev | Default Pages subdomain |
-| https://landing.hypercube.lt | Staging (optional) |
 
 ## Architecture
 
 ```text
-hypercube.lt
-  ├── /3d/*, /4d/*  →  middleware fetches origin.hypercube.lt (wildcard → home) → nginx → Node :8888
-  └── everything else  →  static Astro site on Cloudflare Pages
+hypercube.lt/3d/login.php
+  → hypercube-api-proxy Worker (zone route, runs BEFORE Pages)
+  → origin.hypercube.lt (wildcard DNS → home nginx)
+  → Node :8888 on TrueNAS
+
+hypercube.lt/*
+  → Cloudflare Pages (Astro site)
 ```
 
-**Important:** Do not add `origin.hypercube.lt` as a Pages custom domain. The `*.hypercube.lt` wildcard A record must keep pointing at your home server.
+## Required DNS (Cloudflare zone hypercube.lt)
 
-App URL stays **`hypercube.lt/3d/login.php`**. WordPress on TrueNAS can be shut down; keep PM2 `:8888` and nginx routing for `/3d/*`.
+| Record | Target | Proxy |
+|--------|--------|-------|
+| `@` | Cloudflare Pages (hypercube-landing) | Proxied |
+| `www` | Cloudflare Pages | Proxied |
+| `*.hypercube.lt` OR `origin` | `78.62.188.61` (home reverse-proxy) | Proxied |
 
-## Production cutover (one-time)
+**Do not** add `origin.hypercube.lt` as a Pages custom domain.
 
-1. Push middleware + `site: https://hypercube.lt` in `astro.config.mjs`
-2. Cloudflare → Workers & Pages → **hypercube-landing** → Custom domains → add `hypercube.lt` and `www.hypercube.lt`
-3. DNS (Cloudflare zone): apex `@` and `www` point to Pages (remove A → `78.62.188.61` for website records)
-4. Keep MX / SPF / DMARC / `mail.hypercube.lt` unchanged
-5. Verify: `curl -I https://hypercube.lt/lt/` (200) and app login POST to `/3d/login.php`
-6. Stop WordPress in hypercube jail; keep nginx + Node API
+## Required nginx (reverse-proxy jail)
 
-## Build settings (Cloudflare — already configured)
+Add `origin.hypercube.lt` to `server_name` so TLS/SNI works when Cloudflare connects:
+
+```nginx
+server_name hypercube.lt www.hypercube.lt origin.hypercube.lt;
+```
+
+Keep the `/3d/login.php` location block proxying to `:8888`.
+
+## Verify API
+
+```bash
+curl -X POST https://hypercube.lt/3d/login.php \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "group=7&index=7&key=WRONG"
+# Expect: UNAUTHORIZED (not error 1019/522)
+```
+
+Check CSV on TrueNAS for a new row with your test values.
+
+## Build settings (Pages)
 
 - **Production branch:** `main`
 - **Build command:** `npm run build`
 - **Output directory:** `dist`
-- **Git repo:** https://github.com/irgipaulius/hypercube-landing

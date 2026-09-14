@@ -1,0 +1,19 @@
+name = "hypercube-api-proxy"
+main = "workers/hypercube-api-proxy.js"
+compatibility_date = "2024-09-01"
+
+[[routes]]
+pattern = "hypercube.lt/3d/*"
+zone_name = "hypercube.lt"
+
+[[routes]]
+pattern = "hypercube.lt/4d/*"
+zone_name = "hypercube.lt"
+
+[[routes]]
+pattern = "www.hypercube.lt/3d/*"
+zone_name = "hypercube.lt"
+
+[[routes]]
+pattern = "www.hypercube.lt/4d/*"
+zone_name = "hypercube.lt"

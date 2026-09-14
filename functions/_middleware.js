@@ -1,8 +1,4 @@
-/** Cloudflare Pages middleware — API proxy + locale redirect */
-const PUBLIC_HOST = "hypercube.lt";
-/** Must NOT be a Pages custom domain — wildcard *.hypercube.lt → home nginx */
-const ORIGIN_HOST = "origin.hypercube.lt";
-
+/** Cloudflare Pages middleware — locale redirect (API proxied by zone Worker) */
 const COUNTRY_TO_LOCALE = {
   LT: "lt",
   PL: "pl",
@@ -56,38 +52,10 @@ function detectLocale(request) {
   return "lt";
 }
 
-function isApiPath(pathname) {
-  return pathname.startsWith("/3d/") || pathname.startsWith("/4d/");
-}
-
-/** Proxy app API to home nginx — same public URL, DB and Node stay on TrueNAS */
-async function proxyToHomeServer(request, url) {
-  // Fetch origin.hypercube.lt (home via wildcard DNS), not hypercube.lt — otherwise
-  // Cloudflare error 1019: Pages middleware recursively calls itself.
-  const upstream = new URL(url.pathname + url.search, `https://${ORIGIN_HOST}`);
-  const headers = new Headers(request.headers);
-  headers.set("Host", PUBLIC_HOST);
-
-  const init = {
-    method: request.method,
-    headers,
-    redirect: "manual",
-  };
-
-  if (request.method !== "GET" && request.method !== "HEAD") {
-    init.body = request.body;
-    init.duplex = "half";
-  }
-
-  return fetch(upstream.toString(), init);
-}
-
 export async function onRequest(context) {
   const url = new URL(context.request.url);
 
-  if (isApiPath(url.pathname)) {
-    return proxyToHomeServer(context.request, url);
-  }
+  // /3d/* and /4d/* are handled by the hypercube-api-proxy Worker (see wrangler.api-proxy.toml)
 
   if (url.pathname === "/" || url.pathname === "/index.html") {
     const locale = detectLocale(context.request);
