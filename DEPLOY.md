@@ -27,9 +27,11 @@ Monitor builds: [Cloudflare Pages dashboard](https://dash.cloudflare.com/) → W
 
 ```text
 hypercube.lt
-  ├── /3d/*, /4d/*  →  middleware proxies to home nginx (78.62.188.61) → Node :8888
+  ├── /3d/*, /4d/*  →  middleware fetches origin.hypercube.lt (wildcard → home) → nginx → Node :8888
   └── everything else  →  static Astro site on Cloudflare Pages
 ```
+
+**Important:** Do not add `origin.hypercube.lt` as a Pages custom domain. The `*.hypercube.lt` wildcard A record must keep pointing at your home server.
 
 App URL stays **`hypercube.lt/3d/login.php`**. WordPress on TrueNAS can be shut down; keep PM2 `:8888` and nginx routing for `/3d/*`.
 

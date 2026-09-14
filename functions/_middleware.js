@@ -1,6 +1,7 @@
 /** Cloudflare Pages middleware — API proxy + locale redirect */
-const HOME_ORIGIN_IP = "78.62.188.61";
 const PUBLIC_HOST = "hypercube.lt";
+/** Must NOT be a Pages custom domain — wildcard *.hypercube.lt → home nginx */
+const ORIGIN_HOST = "origin.hypercube.lt";
 
 const COUNTRY_TO_LOCALE = {
   LT: "lt",
@@ -59,19 +60,26 @@ function isApiPath(pathname) {
   return pathname.startsWith("/3d/") || pathname.startsWith("/4d/");
 }
 
-/** Proxy app API to home nginx — same URL, DB and Node stay on TrueNAS */
+/** Proxy app API to home nginx — same public URL, DB and Node stay on TrueNAS */
 async function proxyToHomeServer(request, url) {
-  const upstream = new URL(url.pathname + url.search, `https://${PUBLIC_HOST}`);
+  // Fetch origin.hypercube.lt (home via wildcard DNS), not hypercube.lt — otherwise
+  // Cloudflare error 1019: Pages middleware recursively calls itself.
+  const upstream = new URL(url.pathname + url.search, `https://${ORIGIN_HOST}`);
   const headers = new Headers(request.headers);
   headers.set("Host", PUBLIC_HOST);
 
-  return fetch(upstream.toString(), {
+  const init = {
     method: request.method,
     headers,
-    body: request.method === "GET" || request.method === "HEAD" ? undefined : request.body,
     redirect: "manual",
-    cf: { resolveOverride: HOME_ORIGIN_IP },
-  });
+  };
+
+  if (request.method !== "GET" && request.method !== "HEAD") {
+    init.body = request.body;
+    init.duplex = "half";
+  }
+
+  return fetch(upstream.toString(), init);
 }
 
 export async function onRequest(context) {
