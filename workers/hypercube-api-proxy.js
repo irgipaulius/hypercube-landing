@@ -4,6 +4,7 @@
  * Public URL stays hypercube.lt/3d/login.php for the mobile app.
  */
 const PUBLIC_HOST = "hypercube.lt";
+/** Wildcard *.hypercube.lt → home nginx (must NOT be a Pages custom domain) */
 const ORIGIN_HOST = "origin.hypercube.lt";
 
 export default {
@@ -16,7 +17,10 @@ export default {
     headers.set("X-Forwarded-Proto", "https");
 
     const clientIp = request.headers.get("CF-Connecting-IP");
-    if (clientIp) headers.set("X-Forwarded-For", clientIp);
+    if (clientIp) {
+      headers.set("X-Forwarded-For", clientIp);
+      headers.set("X-Real-Client-IP", clientIp);
+    }
 
     const contentType = request.headers.get("Content-Type");
     if (contentType) headers.set("Content-Type", contentType);

@@ -42,7 +42,17 @@ server_name hypercube.lt www.hypercube.lt origin.hypercube.lt;
 
 Keep the `/3d/login.php` location block proxying to `:8888`.
 
-## Verify API
+## Troubleshooting 522 (API not reaching home)
+
+If `curl https://randomtest987.hypercube.lt/` returns **522**, Cloudflare cannot reach your home server on `78.62.188.61`. The Worker is fine — fix origin connectivity:
+
+1. **Cloudflare DNS** → confirm `*.hypercube.lt` A → `78.62.188.61` (proxied orange cloud)
+2. **TrueNAS reverse-proxy** → nginx running, port 443 forwarded from router
+3. **nginx** → add `origin.hypercube.lt` to `server_name` (see above)
+4. **Cloudflare SSL/TLS** → mode **Full** (not Strict if origin uses self-signed)
+5. Test direct: `curl -skI --resolve hypercube.lt:443:78.62.188.61 https://hypercube.lt/3d/login.php` (expect Express 404 on GET)
+
+## Verify API (after 522 is fixed)
 
 ```bash
 curl -X POST https://hypercube.lt/3d/login.php \
