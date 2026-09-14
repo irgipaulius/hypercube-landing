@@ -40,7 +40,17 @@ Add `origin.hypercube.lt` to `server_name` so TLS/SNI works when Cloudflare conn
 server_name hypercube.lt www.hypercube.lt origin.hypercube.lt;
 ```
 
-Keep the `/3d/login.php` location block proxying to `:8888`.
+Keep the `/3d/login.php` location block proxying to `:8888`. Pass client IP headers through (do not overwrite with `$proxy_add_x_forwarded_for`):
+
+```nginx
+location /3d/login.php {
+    proxy_pass http://192.168.2.15:8888;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-Client-IP $http_x_real_client_ip;
+    proxy_set_header X-Forwarded-For $http_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto https;
+}
+```
 
 ## Troubleshooting 522 (API not reaching home)
 
