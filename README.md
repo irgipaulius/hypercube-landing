@@ -2,7 +2,7 @@
 
 Static rebuild of [hypercube.lt](https://hypercube.lt) using Astro, deployed to Cloudflare Pages.
 
-**Preview:** [landing.hypercube.lt](https://landing.hypercube.lt)
+**Production:** [hypercube.lt](https://hypercube.lt) · **Staging:** [landing.hypercube.lt](https://landing.hypercube.lt)
 
 ## Stack
 
