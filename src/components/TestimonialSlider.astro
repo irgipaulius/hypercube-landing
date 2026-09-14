@@ -10,15 +10,15 @@ const { items, labels } = Astro.props;
 ---
 
 <section class="relative" aria-label={labels.testimonialSelect}>
-  <div class="overflow-hidden rounded-3xl border border-border bg-surface-elevated p-8 md:p-12">
+  <div class="overflow-hidden rounded-2xl border border-border bg-surface-elevated p-5 shadow-md ring-1 ring-black/[0.03] sm:rounded-3xl sm:p-8 sm:shadow-sm sm:ring-0 md:p-12">
     {
       items.map((item, i) => (
         <blockquote
           data-slide={i}
           class:list={["testimonial-slide transition-opacity duration-500", i === 0 ? "block opacity-100" : "hidden opacity-0"]}
         >
-          <p class="font-display text-xl leading-relaxed text-ink md:text-2xl">"{item.quote}"</p>
-          <footer class="mt-6 text-sm font-semibold text-accent">— {item.author}</footer>
+          <p class="font-display text-lg leading-relaxed text-ink sm:text-xl md:text-2xl">"{item.quote}"</p>
+          <footer class="mt-4 text-sm font-semibold text-accent sm:mt-6">— {item.author}</footer>
         </blockquote>
       ))
     }

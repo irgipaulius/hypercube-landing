@@ -24,8 +24,8 @@ const instructors = t.instructors.map(getPersonWithContact);
 ---
 
 <BaseLayout locale={locale} t={t} title={t.teamPage.title} description={t.teamPage.metaDescription}>
-  <section class="border-b border-border bg-gradient-to-b from-accent/5 to-transparent py-16 md:py-20">
-    <div class="mx-auto max-w-6xl px-5">
+  <section class="border-b border-border bg-gradient-to-b from-accent/5 to-transparent py-12 sm:py-16 md:py-20">
+    <div class="mx-auto max-w-6xl px-4 sm:px-5">
       <SectionHeading
         eyebrow={t.teamPage.eyebrow}
         title={t.teamPage.title}
@@ -34,16 +34,16 @@ const instructors = t.instructors.map(getPersonWithContact);
     </div>
   </section>
 
-  <section class="mx-auto max-w-6xl px-5 py-16 md:py-20">
-    <h2 class="mb-8 font-display text-2xl font-semibold text-ink">{t.teamPage.authorSection}</h2>
-    <div class="grid gap-8">
+  <section class="mx-auto max-w-6xl px-4 py-12 sm:px-5 sm:py-16 md:py-20">
+    <h2 class="mb-5 font-display text-xl font-semibold text-ink sm:mb-8 sm:text-2xl">{t.teamPage.authorSection}</h2>
+    <div class="grid gap-5 sm:gap-8">
       <PersonCard person={author} labels={t.common} featured />
     </div>
   </section>
 
-  <section class="mx-auto max-w-6xl px-5 pb-20 md:pb-28">
-    <h2 class="mb-8 font-display text-2xl font-semibold text-ink">{t.teamPage.instructorsSection}</h2>
-    <div class="grid gap-8 sm:grid-cols-2">
+  <section class="mx-auto max-w-6xl px-4 pb-14 sm:px-5 sm:pb-20 md:pb-28">
+    <h2 class="mb-5 font-display text-xl font-semibold text-ink sm:mb-8 sm:text-2xl">{t.teamPage.instructorsSection}</h2>
+    <div class="grid gap-5 sm:grid-cols-2 sm:gap-8">
       {instructors.map((person) => (
         <PersonCard person={person} labels={t.common} />
       ))}

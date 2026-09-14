@@ -14,33 +14,81 @@ const { person, labels, featured = false } = Astro.props;
 
 <article
   class:list={[
-    "flex flex-col overflow-hidden rounded-3xl border border-border bg-surface-elevated shadow-sm",
-    featured && "md:col-span-2 md:grid md:grid-cols-[280px_1fr] md:gap-0",
+    "overflow-hidden rounded-2xl bg-surface-elevated ring-1 ring-border shadow-md",
+    featured
+      ? "md:col-span-2 md:grid md:grid-cols-[280px_1fr] md:gap-0 md:rounded-3xl md:shadow-sm md:ring-0"
+      : "",
   ]}
 >
-  <div class:list={["relative overflow-hidden bg-ink/5", featured ? "min-h-80 md:min-h-full" : "aspect-[3/4]"]}>
-    <img src={person.photo} alt={person.name} class="h-full w-full object-cover object-top" loading="lazy" />
-  </div>
+  {
+    featured ? (
+      <>
+        <!-- Mobile featured: horizontal header -->
+        <div class="flex gap-4 border-b border-border p-4 md:hidden">
+          <img
+            src={person.photo}
+            alt={person.name}
+            class="h-24 w-20 shrink-0 rounded-xl object-cover object-top"
+            loading="lazy"
+          />
+          <div class="min-w-0 pt-1">
+            <p class="text-xs font-semibold uppercase tracking-wider text-accent">{person.role}</p>
+            <h3 class="mt-0.5 font-display text-lg font-semibold text-ink">{person.name}</h3>
+            <p class="mt-1 text-xs text-ink-muted">{person.location}</p>
+          </div>
+        </div>
+        <div class="relative hidden overflow-hidden bg-ink/5 md:block md:min-h-full">
+          <img src={person.photo} alt={person.name} class="h-full w-full object-cover object-top" loading="lazy" />
+        </div>
+      </>
+    ) : (
+      <!-- Standard mobile: compact horizontal header -->
+      <div class="flex gap-4 border-b border-border p-4 md:hidden">
+        <img
+          src={person.photo}
+          alt={person.name}
+          class="h-20 w-16 shrink-0 rounded-xl object-cover object-top"
+          loading="lazy"
+        />
+        <div class="min-w-0 pt-0.5">
+          <p class="text-xs font-semibold uppercase tracking-wider text-accent">{person.role}</p>
+          <h3 class="mt-0.5 font-display text-base font-semibold leading-snug text-ink">{person.name}</h3>
+          <p class="mt-1 text-xs text-ink-muted">{person.location}</p>
+        </div>
+      </div>
+    )
+  }
 
-  <div class="flex flex-1 flex-col p-6 md:p-8">
-    <p class="text-sm font-semibold uppercase tracking-wider text-accent">{person.role}</p>
-    <h3 class="mt-1 font-display text-2xl font-semibold text-ink">{person.name}</h3>
-    <p class="mt-2 text-sm text-ink-muted">{person.location}</p>
+  {
+    !featured && (
+      <div class="relative hidden aspect-[3/4] overflow-hidden bg-ink/5 md:block">
+        <img src={person.photo} alt={person.name} class="h-full w-full object-cover object-top" loading="lazy" />
+      </div>
+    )
+  }
+
+  <div class="flex flex-1 flex-col p-4 md:p-8">
+    <!-- Desktop-only title (mobile uses header above) -->
+    <div class="hidden md:block">
+      <p class="text-sm font-semibold uppercase tracking-wider text-accent">{person.role}</p>
+      <h3 class="mt-1 font-display text-2xl font-semibold text-ink">{person.name}</h3>
+      <p class="mt-2 text-sm text-ink-muted">{person.location}</p>
+    </div>
 
     {
       person.bio && (
-        <div class="mt-5 space-y-3 text-sm leading-relaxed text-ink-muted">
+        <div class="space-y-2 text-sm leading-relaxed text-ink-muted md:mt-5 md:space-y-3">
           {person.bio.map((p) => <p>{p}</p>)}
         </div>
       )
     }
 
-    <div class="mt-auto flex flex-wrap gap-3 pt-6">
+    <div class="mt-4 flex flex-wrap gap-2 pt-2 md:mt-auto md:gap-3 md:pt-6">
       {
         person.phone && (
           <a
             href={`tel:${person.phone.replace(/\s/g, "")}`}
-            class="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium text-ink transition hover:border-accent hover:text-accent"
+            class="inline-flex items-center rounded-full border border-border px-3 py-1.5 text-xs font-medium text-ink transition hover:border-accent hover:text-accent md:px-4 md:py-2 md:text-sm"
           >
             {person.phone}
           </a>
@@ -50,7 +98,7 @@ const { person, labels, featured = false } = Astro.props;
         person.email && (
           <a
             href={`mailto:${person.email}`}
-            class="inline-flex items-center rounded-full bg-accent px-4 py-2 text-sm font-medium text-white transition hover:bg-accent-light"
+            class="inline-flex items-center rounded-full bg-accent px-3 py-1.5 text-xs font-medium text-white transition hover:bg-accent-light md:px-4 md:py-2 md:text-sm"
           >
             {labels.email}
           </a>
@@ -62,7 +110,7 @@ const { person, labels, featured = false } = Astro.props;
             href={person.facebook}
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-flex items-center rounded-full border border-border px-4 py-2 text-sm font-medium text-ink-muted transition hover:border-accent hover:text-accent"
+            class="inline-flex items-center rounded-full border border-border px-3 py-1.5 text-xs font-medium text-ink-muted transition hover:border-accent hover:text-accent md:px-4 md:py-2 md:text-sm"
           >
             {labels.facebook}
           </a>
