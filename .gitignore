@@ -1,0 +1,21 @@
+# build
+dist/
+.astro/
+
+# deps
+node_modules/
+
+# env
+.env
+.env.*
+!.env.example
+
+# os
+.DS_Store
+
+# local mirror (archival — re-fetch with npm run fetch:wp)
+mirror/
+
+# wrangler
+.wrangler/
+.dev.vars

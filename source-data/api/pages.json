@@ -1,0 +1,392 @@
+[
+  {
+    "id": 202,
+    "date": "2022-09-05T19:44:25",
+    "date_gmt": "2022-09-05T19:44:25",
+    "guid": {
+      "rendered": "https://hypercube.lt/?page_id=202"
+    },
+    "modified": "2024-07-16T20:38:33",
+    "modified_gmt": "2024-07-16T20:38:33",
+    "slug": "author-and-instructors",
+    "status": "publish",
+    "type": "page",
+    "link": "https://hypercube.lt/author-and-instructors/",
+    "title": {
+      "rendered": "Autorius ir instruktoriai"
+    },
+    "content": {
+      "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"202\" class=\"elementor elementor-202\" data-elementor-post-type=\"page\">\n\t\t\t\t<div class=\"elementor-element elementor-element-2d31449 e-flex e-con-boxed e-con e-parent\" data-id=\"2d31449\" data-element_type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-ed95ac8 elementor-widget elementor-widget-text-editor\" data-id=\"ed95ac8\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>/*! elementor - v3.22.0 - 17-06-2024 */\n.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>\t\t\t\t<p><span style=\"color: #000000;\">Autorius</span></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-b0fe27b e-flex e-con-boxed e-con e-parent\" data-id=\"b0fe27b\" data-element_type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-0c360aa e-con-full e-flex e-con e-child\" data-id=\"0c360aa\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-8579047 elementor-position-top elementor-widget elementor-widget-image-box\" data-id=\"8579047\" data-element_type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>/*! elementor - v3.22.0 - 17-06-2024 */\n.elementor-widget-image-box .elementor-image-box-content{width:100%}@media (min-width:768px){.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{display:flex}.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{text-align:end;flex-direction:row-reverse}.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper{text-align:start;flex-direction:row}.elementor-widget-image-box.elementor-position-top .elementor-image-box-img{margin:auto}.elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper{align-items:flex-start}.elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper{align-items:center}.elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper{align-items:flex-end}}@media (max-width:767px){.elementor-widget-image-box .elementor-image-box-img{margin-left:auto!important;margin-right:auto!important;margin-bottom:15px}}.elementor-widget-image-box .elementor-image-box-img{display:inline-block}.elementor-widget-image-box .elementor-image-box-title a{color:inherit}.elementor-widget-image-box .elementor-image-box-wrapper{text-align:center}.elementor-widget-image-box .elementor-image-box-description{margin:0}</style><div class=\"elementor-image-box-wrapper\"><figure class=\"elementor-image-box-img\"><img fetchpriority=\"high\" decoding=\"async\" width=\"400\" height=\"600\" src=\"https://hypercube.lt/wp-content/uploads/2022/09/foto-NR1.jpg\" class=\"attachment-full size-full wp-image-168\" alt=\"\" srcset=\"https://hypercube.lt/wp-content/uploads/2022/09/foto-NR1.jpg 400w, https://hypercube.lt/wp-content/uploads/2022/09/foto-NR1-200x300.jpg 200w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></figure></div>\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-05d7671 e-con-full e-flex e-con e-child\" data-id=\"05d7671\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-caf15a9 elementor-widget elementor-widget-image-box\" data-id=\"caf15a9\" data-element_type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<div class=\"elementor-image-box-wrapper\"><div class=\"elementor-image-box-content\"><h3 class=\"elementor-image-box-title\">Tomas Jacinkevičius</h3><p class=\"elementor-image-box-description\">Metodikos autorius</p></div></div>\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-80d22e9 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"80d22e9\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>/*! elementor - v3.22.0 - 17-06-2024 */\n.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#0c0d0e;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:\"\";border-block-end:0;flex-grow:1;border-block-start:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider--element-align-start .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-start .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-start .elementor-divider__element{margin-inline-start:0}.elementor-widget-divider--element-align-end .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-end .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-end .elementor-divider__element{margin-inline-end:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-block-start:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow)}</style>\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-ea46d74 elementor-widget elementor-widget-text-editor\" data-id=\"ea46d74\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p><span style=\"font-weight: 400;\">Metodikos “Hyperkube” autorius virš 30 metų tyrinėja vidinius žmogaus resursus, jų lavinimo ir valdymo galimybes. Tyrinėjimų pagrindas DFB (diferencijuotų funkcinių būsenų) metodika “Ugninė gėlė”, kurios autorius Igoris Kalinauskas. Ją Tomas aktyviai praktikuoja nuo 1992 metų, o 1993 metų įgijo instruktoriaus kvalifikaciją. Dabar, kaip ekspertas veda DFB instrumentų kalibruotes.</span></p><p><span style=\"font-weight: 400;\">Nuo 1993 metų atlieka masažų praktiką, o nuo 2001 metais dėsto autorinę masažo metodiką “RANKU” pagrįsta DFB ir kitomis vidinių resursų valdymo praktikomis.  Šimtai apmokytų studentų.</span></p><p><span style=\"font-weight: 400;\">Nuo 2000 metų dirba Igorio Kalinausko </span><a href=\"https://www.facebook.com/Sodyba.JegosVieta\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Sodyboje “Jėgos vieta”.</span></a></p><p><span style=\"font-weight: 400;\">Nuo 2014 metų aktyviai dalyvavo “INK laboratorijoje”, kurioje vyko aktyvus naujų instrumentų skirtų įvaldyti žmogaus vidinius resursų tyrinėjimas, kūrimas ir pritaikymas praktikoje, ko pasekoje Tomas ir sukūrė Hypercube metodika, kurią Igoris Kalinauskas pavadino 4-mačiu DFB. </span></p><p><span style=\"font-weight: 400;\">Metodika sėkmingai dėstoma nuo 2017 m., ja sėkmingai naudojasi jau daugiau nei 400 žmonių iš viso pasaulio.</span></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-d7098f7 elementor-widget elementor-widget-text-editor\" data-id=\"d7098f7\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p>Lietuva </p><p>Viber: <a href=\"tel:+37061184427\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #333399;\">+37061184427</span></a></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-7b54d88 e-grid-align-left e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons\" data-id=\"7b54d88\" data-element_type=\"widget\" data-widget_type=\"social-icons.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>/*! elementor - v3.22.0 - 17-06-2024 */\n.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container{line-height:1;font-size:0}.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid{display:inline-grid}.elementor-widget-social-icons .elementor-grid{grid-column-gap:var(--grid-column-gap,5px);grid-row-gap:var(--grid-row-gap,5px);grid-template-columns:var(--grid-template-columns);justify-content:var(--justify-content,center);justify-items:var(--justify-content,center)}.elementor-icon.elementor-social-icon{font-size:var(--icon-size,25px);line-height:var(--icon-size,25px);width:calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));height:calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em))}.elementor-social-icon{--e-social-icon-icon-color:#fff;display:inline-flex;background-color:#69727d;align-items:center;justify-content:center;text-align:center;cursor:pointer}.elementor-social-icon i{color:var(--e-social-icon-icon-color)}.elementor-social-icon svg{fill:var(--e-social-icon-icon-color)}.elementor-social-icon:last-child{margin:0}.elementor-social-icon:hover{opacity:.9;color:#fff}.elementor-social-icon-android{background-color:#a4c639}.elementor-social-icon-apple{background-color:#999}.elementor-social-icon-behance{background-color:#1769ff}.elementor-social-icon-bitbucket{background-color:#205081}.elementor-social-icon-codepen{background-color:#000}.elementor-social-icon-delicious{background-color:#39f}.elementor-social-icon-deviantart{background-color:#05cc47}.elementor-social-icon-digg{background-color:#005be2}.elementor-social-icon-dribbble{background-color:#ea4c89}.elementor-social-icon-elementor{background-color:#d30c5c}.elementor-social-icon-envelope{background-color:#ea4335}.elementor-social-icon-facebook,.elementor-social-icon-facebook-f{background-color:#3b5998}.elementor-social-icon-flickr{background-color:#0063dc}.elementor-social-icon-foursquare{background-color:#2d5be3}.elementor-social-icon-free-code-camp,.elementor-social-icon-freecodecamp{background-color:#006400}.elementor-social-icon-github{background-color:#333}.elementor-social-icon-gitlab{background-color:#e24329}.elementor-social-icon-globe{background-color:#69727d}.elementor-social-icon-google-plus,.elementor-social-icon-google-plus-g{background-color:#dd4b39}.elementor-social-icon-houzz{background-color:#7ac142}.elementor-social-icon-instagram{background-color:#262626}.elementor-social-icon-jsfiddle{background-color:#487aa2}.elementor-social-icon-link{background-color:#818a91}.elementor-social-icon-linkedin,.elementor-social-icon-linkedin-in{background-color:#0077b5}.elementor-social-icon-medium{background-color:#00ab6b}.elementor-social-icon-meetup{background-color:#ec1c40}.elementor-social-icon-mixcloud{background-color:#273a4b}.elementor-social-icon-odnoklassniki{background-color:#f4731c}.elementor-social-icon-pinterest{background-color:#bd081c}.elementor-social-icon-product-hunt{background-color:#da552f}.elementor-social-icon-reddit{background-color:#ff4500}.elementor-social-icon-rss{background-color:#f26522}.elementor-social-icon-shopping-cart{background-color:#4caf50}.elementor-social-icon-skype{background-color:#00aff0}.elementor-social-icon-slideshare{background-color:#0077b5}.elementor-social-icon-snapchat{background-color:#fffc00}.elementor-social-icon-soundcloud{background-color:#f80}.elementor-social-icon-spotify{background-color:#2ebd59}.elementor-social-icon-stack-overflow{background-color:#fe7a15}.elementor-social-icon-steam{background-color:#00adee}.elementor-social-icon-stumbleupon{background-color:#eb4924}.elementor-social-icon-telegram{background-color:#2ca5e0}.elementor-social-icon-threads{background-color:#000}.elementor-social-icon-thumb-tack{background-color:#1aa1d8}.elementor-social-icon-tripadvisor{background-color:#589442}.elementor-social-icon-tumblr{background-color:#35465c}.elementor-social-icon-twitch{background-color:#6441a5}.elementor-social-icon-twitter{background-color:#1da1f2}.elementor-social-icon-viber{background-color:#665cac}.elementor-social-icon-vimeo{background-color:#1ab7ea}.elementor-social-icon-vk{background-color:#45668e}.elementor-social-icon-weibo{background-color:#dd2430}.elementor-social-icon-weixin{background-color:#31a918}.elementor-social-icon-whatsapp{background-color:#25d366}.elementor-social-icon-wordpress{background-color:#21759b}.elementor-social-icon-x-twitter{background-color:#000}.elementor-social-icon-xing{background-color:#026466}.elementor-social-icon-yelp{background-color:#af0606}.elementor-social-icon-youtube{background-color:#cd201f}.elementor-social-icon-500px{background-color:#0099e5}.elementor-shape-rounded .elementor-icon.elementor-social-icon{border-radius:10%}.elementor-shape-circle .elementor-icon.elementor-social-icon{border-radius:50%}</style>\t\t<div class=\"elementor-social-icons-wrapper elementor-grid\">\n\t\t\t\t\t\t\t<span class=\"elementor-grid-item\">\n\t\t\t\t\t<a class=\"elementor-icon elementor-social-icon elementor-social-icon-envelope elementor-animation-grow elementor-repeater-item-8ec685c\" href=\"mailto:tomas.jacinkevicius@gmail.com\" target=\"_blank\">\n\t\t\t\t\t\t<span class=\"elementor-screen-only\">Envelope</span>\n\t\t\t\t\t\t<i class=\"far fa-envelope\"></i>\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t\t\t\t<span class=\"elementor-grid-item\">\n\t\t\t\t\t<a class=\"elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-grow elementor-repeater-item-b07b474\" href=\"https://www.facebook.com/IRGITOMAS\" target=\"_blank\" rel=\"noopener\">\n\t\t\t\t\t\t<span class=\"elementor-screen-only\">Facebook</span>\n\t\t\t\t\t\t<i class=\"fab fa-facebook\"></i>\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-d7ad92e e-flex e-con-boxed e-con e-parent\" data-id=\"d7ad92e\" data-element_type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-8163b4b elementor-widget elementor-widget-text-editor\" data-id=\"8163b4b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p><span style=\"color: #000000;\">Instruktoriai</span></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-500dc3b e-flex e-con-boxed e-con e-parent\" data-id=\"500dc3b\" data-element_type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-bd02b6d e-con-full e-flex e-con e-child\" data-id=\"bd02b6d\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-e51f2c1 elementor-position-top elementor-widget elementor-widget-image-box\" data-id=\"e51f2c1\" data-element_type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<div class=\"elementor-image-box-wrapper\"><figure class=\"elementor-image-box-img\"><img decoding=\"async\" width=\"400\" height=\"600\" src=\"https://hypercube.lt/wp-content/uploads/2022/09/fotoNR2.jpg\" class=\"attachment-full size-full wp-image-169\" alt=\"\" srcset=\"https://hypercube.lt/wp-content/uploads/2022/09/fotoNR2.jpg 400w, https://hypercube.lt/wp-content/uploads/2022/09/fotoNR2-200x300.jpg 200w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></figure><div class=\"elementor-image-box-content\"><h3 class=\"elementor-image-box-title\">Gita Ramana</h3><p class=\"elementor-image-box-description\">„Tesseract“ instruktorė</p></div></div>\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-5fdf2a0 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"5fdf2a0\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-361b171 elementor-widget elementor-widget-text-editor\" data-id=\"361b171\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p>Lietuva </p><p>Viber/WhatsApp.: <a href=\"tel:+37067210540\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #333399;\">+37067210540</span></a></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-922005f elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons\" data-id=\"922005f\" data-element_type=\"widget\" data-widget_type=\"social-icons.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-social-icons-wrapper elementor-grid\">\n\t\t\t\t\t\t\t<span class=\"elementor-grid-item\">\n\t\t\t\t\t<a class=\"elementor-icon elementor-social-icon elementor-social-icon-envelope elementor-animation-grow elementor-repeater-item-8ec685c\" href=\"mailto:gita.ramane.gl@gmail.com\" target=\"_blank\">\n\t\t\t\t\t\t<span class=\"elementor-screen-only\">Envelope</span>\n\t\t\t\t\t\t<i class=\"far fa-envelope\"></i>\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t\t\t\t<span class=\"elementor-grid-item\">\n\t\t\t\t\t<a class=\"elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-grow elementor-repeater-item-8b93740\" href=\"https://www.facebook.com/GyvenimoLatoratorija\" target=\"_blank\" rel=\"noopener\">\n\t\t\t\t\t\t<span class=\"elementor-screen-only\">Facebook</span>\n\t\t\t\t\t\t<i class=\"fab fa-facebook\"></i>\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-4065abe e-con-full e-flex e-con e-child\" data-id=\"4065abe\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-49c9b68 elementor-position-top elementor-widget elementor-widget-image-box\" data-id=\"49c9b68\" data-element_type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<div class=\"elementor-image-box-wrapper\"><figure class=\"elementor-image-box-img\"><img decoding=\"async\" width=\"393\" height=\"575\" src=\"https://hypercube.lt/wp-content/uploads/2024/06/viber_image_2024-06-23_20-48-14-761-e1719478439433.jpg\" class=\"attachment-full size-full wp-image-1520\" alt=\"\" srcset=\"https://hypercube.lt/wp-content/uploads/2024/06/viber_image_2024-06-23_20-48-14-761-e1719478439433.jpg 393w, https://hypercube.lt/wp-content/uploads/2024/06/viber_image_2024-06-23_20-48-14-761-e1719478439433-205x300.jpg 205w\" sizes=\"(max-width: 393px) 100vw, 393px\" /></figure><div class=\"elementor-image-box-content\"><h3 class=\"elementor-image-box-title\">Rimas Dubickas</h3><p class=\"elementor-image-box-description\">„Tesseract“ instruktorius</p></div></div>\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-d5bf33b elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"d5bf33b\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-54fa7b9 elementor-widget elementor-widget-text-editor\" data-id=\"54fa7b9\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p>Norvegija</p><p>Viber/WhatsApp.:</p><p><span style=\"color: #333399;\">+4746378519</span></p><p> </p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-fb167af elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons\" data-id=\"fb167af\" data-element_type=\"widget\" data-widget_type=\"social-icons.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-social-icons-wrapper elementor-grid\">\n\t\t\t\t\t\t\t<span class=\"elementor-grid-item\">\n\t\t\t\t\t<a class=\"elementor-icon elementor-social-icon elementor-social-icon-envelope elementor-animation-grow elementor-repeater-item-8ec685c\" href=\"mailto:rimas.04@gmail.com\" target=\"_blank\">\n\t\t\t\t\t\t<span class=\"elementor-screen-only\">Envelope</span>\n\t\t\t\t\t\t<i class=\"far fa-envelope\"></i>\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t\t\t\t<span class=\"elementor-grid-item\">\n\t\t\t\t\t<a class=\"elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-grow elementor-repeater-item-8b93740\" href=\"https://m.facebook.com/rimas.tesseract/\" target=\"_blank\" rel=\"noopener\">\n\t\t\t\t\t\t<span class=\"elementor-screen-only\">Facebook</span>\n\t\t\t\t\t\t<i class=\"fab fa-facebook\"></i>\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-12f3f66 e-con-full e-flex e-con e-child\" data-id=\"12f3f66\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-80e05a1 elementor-position-top elementor-widget elementor-widget-image-box\" data-id=\"80e05a1\" data-element_type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<div class=\"elementor-image-box-wrapper\"><figure class=\"elementor-image-box-img\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"600\" src=\"https://hypercube.lt/wp-content/uploads/2024/06/milda.jpg\" class=\"attachment-full size-full wp-image-1531\" alt=\"\" srcset=\"https://hypercube.lt/wp-content/uploads/2024/06/milda.jpg 400w, https://hypercube.lt/wp-content/uploads/2024/06/milda-200x300.jpg 200w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></figure><div class=\"elementor-image-box-content\"><h3 class=\"elementor-image-box-title\">Milda Jonikaitė</h3><p class=\"elementor-image-box-description\">„Tesseract“ instruktorė</p></div></div>\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-b484404 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"b484404\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-8849a37 elementor-widget elementor-widget-text-editor\" data-id=\"8849a37\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p>Norvegija</p><p>Viber/WhatsApp.:</p><p>+4796887384</p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-9188935 elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons\" data-id=\"9188935\" data-element_type=\"widget\" data-widget_type=\"social-icons.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-social-icons-wrapper elementor-grid\">\n\t\t\t\t\t\t\t<span class=\"elementor-grid-item\">\n\t\t\t\t\t<a class=\"elementor-icon elementor-social-icon elementor-social-icon-envelope elementor-animation-grow elementor-repeater-item-8ec685c\" href=\"mailto:mjonikaite10@gmail.com\" target=\"_blank\">\n\t\t\t\t\t\t<span class=\"elementor-screen-only\">Envelope</span>\n\t\t\t\t\t\t<i class=\"far fa-envelope\"></i>\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t\t\t\t<span class=\"elementor-grid-item\">\n\t\t\t\t\t<a class=\"elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-grow elementor-repeater-item-8b93740\" href=\"https://m.facebook.com/milda.jonikaite.9/\" target=\"_blank\" rel=\"noopener\">\n\t\t\t\t\t\t<span class=\"elementor-screen-only\">Facebook</span>\n\t\t\t\t\t\t<i class=\"fab fa-facebook\"></i>\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-209f3f7 e-con-full e-flex e-con e-child\" data-id=\"209f3f7\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-7a8ebf0 elementor-position-top elementor-widget elementor-widget-image-box\" data-id=\"7a8ebf0\" data-element_type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<div class=\"elementor-image-box-wrapper\"><figure class=\"elementor-image-box-img\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"600\" src=\"https://hypercube.lt/wp-content/uploads/2022/09/fotoNR3.jpg\" class=\"attachment-full size-full wp-image-170\" alt=\"\" srcset=\"https://hypercube.lt/wp-content/uploads/2022/09/fotoNR3.jpg 400w, https://hypercube.lt/wp-content/uploads/2022/09/fotoNR3-200x300.jpg 200w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></figure><div class=\"elementor-image-box-content\"><h3 class=\"elementor-image-box-title\">Uliana Khodorivska​</h3><p class=\"elementor-image-box-description\">„Tesseract“ instruktorė</p></div></div>\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-2d1bd8e elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"2d1bd8e\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-665b186 elementor-widget elementor-widget-text-editor\" data-id=\"665b186\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p>Ukraina </p><p>Viber/WhatsApp.: <a href=\"tel:+380675512455\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #333399;\">+380675512455</span></a></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-38b8aae elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons\" data-id=\"38b8aae\" data-element_type=\"widget\" data-widget_type=\"social-icons.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-social-icons-wrapper elementor-grid\">\n\t\t\t\t\t\t\t<span class=\"elementor-grid-item\">\n\t\t\t\t\t<a class=\"elementor-icon elementor-social-icon elementor-social-icon-envelope elementor-animation-grow elementor-repeater-item-8ec685c\" href=\"mailto:maslova.um@gmail.com\" target=\"_blank\">\n\t\t\t\t\t\t<span class=\"elementor-screen-only\">Envelope</span>\n\t\t\t\t\t\t<i class=\"far fa-envelope\"></i>\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t\t\t\t<span class=\"elementor-grid-item\">\n\t\t\t\t\t<a class=\"elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-grow elementor-repeater-item-8b93740\" href=\"https://www.facebook.com/profile.php?id=100000502530812\" target=\"_blank\" rel=\"noopener\">\n\t\t\t\t\t\t<span class=\"elementor-screen-only\">Facebook</span>\n\t\t\t\t\t\t<i class=\"fab fa-facebook\"></i>\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t\t\t\t<span class=\"elementor-grid-item\">\n\t\t\t\t\t<a class=\"elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-grow elementor-repeater-item-a49e9d6\" href=\"https://www.facebook.com/khodorivska\" target=\"_blank\" rel=\"noopener\">\n\t\t\t\t\t\t<span class=\"elementor-screen-only\">Facebook</span>\n\t\t\t\t\t\t<i class=\"fab fa-facebook\"></i>\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-79d1ed9 e-con-full elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child\" data-id=\"79d1ed9\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-09d00d0 elementor-position-top elementor-widget elementor-widget-image-box\" data-id=\"09d00d0\" data-element_type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<div class=\"elementor-image-box-wrapper\"><figure class=\"elementor-image-box-img\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"600\" src=\"https://hypercube.lt/wp-content/uploads/2022/09/FotoNR4.jpg\" class=\"attachment-full size-full wp-image-171\" alt=\"\" srcset=\"https://hypercube.lt/wp-content/uploads/2022/09/FotoNR4.jpg 400w, https://hypercube.lt/wp-content/uploads/2022/09/FotoNR4-200x300.jpg 200w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></figure><div class=\"elementor-image-box-content\"><h3 class=\"elementor-image-box-title\">Sergey Sukhotskiy</h3><p class=\"elementor-image-box-description\">„Tesseract“ instruktorius</p></div></div>\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-73b6ba0 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"73b6ba0\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-1046a0d elementor-widget elementor-widget-text-editor\" data-id=\"1046a0d\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p>Rusija</p><p>Viber/WhatsApp.: <a href=\"tel:+79023732769\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #333399;\">+79023732769</span></a></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-2ff63c9 elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons\" data-id=\"2ff63c9\" data-element_type=\"widget\" data-widget_type=\"social-icons.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-social-icons-wrapper elementor-grid\">\n\t\t\t\t\t\t\t<span class=\"elementor-grid-item\">\n\t\t\t\t\t<a class=\"elementor-icon elementor-social-icon elementor-social-icon-envelope elementor-animation-grow elementor-repeater-item-8ec685c\" href=\"mailto:izidatlt@gmail.com\" target=\"_blank\">\n\t\t\t\t\t\t<span class=\"elementor-screen-only\">Envelope</span>\n\t\t\t\t\t\t<i class=\"far fa-envelope\"></i>\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t\t\t\t<span class=\"elementor-grid-item\">\n\t\t\t\t\t<a class=\"elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-grow elementor-repeater-item-8b93740\" href=\"https://www.facebook.com/profile.php?id=1796030793\" target=\"_blank\" rel=\"noopener\">\n\t\t\t\t\t\t<span class=\"elementor-screen-only\">Facebook</span>\n\t\t\t\t\t\t<i class=\"fab fa-facebook\"></i>\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Autorius Tomas Jacinkevičius Metodikos autorius Metodikos “Hyperkube” autorius virš 30 metų tyrinėja vidinius žmogaus resursus, jų lavinimo ir valdymo galimybes. Tyrinėjimų pagrindas DFB (diferencijuotų funkcinių būsenų) metodika “Ugninė gėlė”, kurios autorius Igoris Kalinauskas. Ją Tomas aktyviai praktikuoja nuo 1992 metų, o 1993 metų įgijo instruktoriaus kvalifikaciją. Dabar, kaip ekspertas veda DFB instrumentų kalibruotes. Nuo 1993 [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-202",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://hypercube.lt/wp-json/wp/v2/pages/202",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://hypercube.lt/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://hypercube.lt/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://hypercube.lt/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://hypercube.lt/wp-json/wp/v2/comments?post=202"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 359,
+          "href": "https://hypercube.lt/wp-json/wp/v2/pages/202/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1559,
+          "href": "https://hypercube.lt/wp-json/wp/v2/pages/202/revisions/1559"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://hypercube.lt/wp-json/wp/v2/media?parent=202"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 1,
+          "name": "romandas.aleknavicius@gmail.com",
+          "url": "https://hypercube.lt",
+          "description": "",
+          "link": "https://hypercube.lt/author/romandas-aleknaviciusgmail-com/",
+          "slug": "romandas-aleknaviciusgmail-com",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/fc1ecd926ce72938e7b9c6f15ca8d01c8b25d1f6d667e28e452dc425cc4742cb?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/fc1ecd926ce72938e7b9c6f15ca8d01c8b25d1f6d667e28e452dc425cc4742cb?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/fc1ecd926ce72938e7b9c6f15ca8d01c8b25d1f6d667e28e452dc425cc4742cb?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://hypercube.lt/wp-json/wp/v2/users/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://hypercube.lt/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "date": "2022-09-05T13:59:11",
+    "date_gmt": "2022-09-05T13:59:11",
+    "guid": {
+      "rendered": "https://hypercube.lt/?page_id=7"
+    },
+    "modified": "2024-06-27T09:24:58",
+    "modified_gmt": "2024-06-27T09:24:58",
+    "slug": "homepage",
+    "status": "publish",
+    "type": "page",
+    "link": "https://hypercube.lt/",
+    "title": {
+      "rendered": "Hypercube"
+    },
+    "content": {
+      "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"7\" class=\"elementor elementor-7\" data-elementor-post-type=\"page\">\n\t\t\t\t<div class=\"elementor-element elementor-element-47bea42 e-flex e-con-boxed e-con e-parent\" data-id=\"47bea42\" data-element_type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-68a76a8 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor\" data-id=\"68a76a8\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<h1>Tiems, kas nori SAU leisti daugiau</h1>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-e8b809d e-flex e-con-boxed e-con e-parent\" data-id=\"e8b809d\" data-element_type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-d34c9bb animated-fast elementor-invisible elementor-widget elementor-widget-text-editor\" data-id=\"d34c9bb\" data-element_type=\"widget\" data-settings=\"{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:700}\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p style=\"text-align: center;\"><b>Žmogaus vidinių resursų valdymo metodika “Hypercube”</b></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-48cbc4f animated-fast elementor-invisible elementor-widget elementor-widget-text-editor\" data-id=\"48cbc4f\" data-element_type=\"widget\" data-settings=\"{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:700}\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p style=\"text-align: center;\"><span style=\"font-weight: 400;\">(autorius Tomas Jacinkevičius)</span></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-df299e8 animated-fast elementor-invisible elementor-widget elementor-widget-text-editor\" data-id=\"df299e8\" data-element_type=\"widget\" data-settings=\"{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:700}\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p><span style=\"font-weight: 400;\">“Hypercube” metodika skirta susipažinti su žmogaus vinidių resursų potencialu, įgyti jo atskleidimui skirtus instrumentus ir sukurti vidinio valdymo sistemą. Vaizduotės ir dėmesio valdymo praktikos lavina erdvinį ir vizualinį intelektus bei daugiamatį suvokimą. Išugdyti aktyvios savireguliacijos įgūdžiai padeda atsverti išorinio valdymo poveikį ir turėti norimą kiekį bei kokybę energijos, reikalingos tiems, kas nori SAU leisti daugiau.</span></p>\n<p><span style=\"font-weight: 400;\">Metodikos pagrindą sudaro skirtingų vienas kitą papildančių kursų sistema. Kiekvienas kursas yra savipakankamas, vysto atitinkamus įgūdžius, suformuoja skirtingo lygio instrumentus ir praplečia savireguliacijos bei sąveikos su žmonėmis ir pasauliu galimybes. </span></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-4e2587f e-flex e-con-boxed e-con e-parent\" data-id=\"4e2587f\" data-element_type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-42c9131 elementor-widget elementor-widget-text-editor\" data-id=\"42c9131\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<h1><span style=\"color: #000000;\">Kursai</span></h1>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-73352c6 e-con-full e-flex e-con e-parent\" data-id=\"73352c6\" data-element_type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-40fb689 e-con-full e-flex e-con e-child\" data-id=\"40fb689\" data-element_type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-f00b88d e-con-full e-flex e-con e-child\" data-id=\"f00b88d\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-1bcfca4 elementor-widget elementor-widget-video\" data-id=\"1bcfca4\" data-element_type=\"widget\" data-settings=\"{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;mute&quot;:&quot;yes&quot;}\" data-widget_type=\"video.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>/*! elementor - v3.22.0 - 17-06-2024 */\n.elementor-widget-video .elementor-widget-container{overflow:hidden;transform:translateZ(0)}.elementor-widget-video .elementor-wrapper{aspect-ratio:var(--video-aspect-ratio)}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{height:100%;width:100%;display:flex;border:none;background-color:#000}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-wrapper{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay{position:absolute;top:0;right:0;bottom:0;left:0;background-size:cover;background-position:50%}.elementor-widget-video .elementor-custom-embed-image-overlay{cursor:pointer;text-align:center}.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i{opacity:1}.elementor-widget-video .elementor-custom-embed-image-overlay img{display:block;width:100%;aspect-ratio:var(--video-aspect-ratio);-o-object-fit:cover;object-fit:cover;-o-object-position:center center;object-position:center center}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-custom-embed-image-overlay{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-custom-embed-image-overlay img{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .e-hosted-video .elementor-video{-o-object-fit:cover;object-fit:cover}.e-con-inner>.elementor-widget-video,.e-con>.elementor-widget-video{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>\t\t<div class=\"e-hosted-video elementor-wrapper elementor-open-inline\">\n\t\t\t\t\t<video class=\"elementor-video\" src=\"https://hypercube.lt/wp-content/uploads/2022/09/pavNR1.mp4\" autoplay=\"\" loop=\"\" muted=\"muted\" playsinline=\"\" controlsList=\"nodownload\"></video>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-da07c01 elementor-widget elementor-widget-heading\" data-id=\"da07c01\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>/*! elementor - v3.22.0 - 17-06-2024 */\n.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class=\"elementor-heading-title elementor-size-default\">„Tesseract“</h2>\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-db780e3 elementor-widget elementor-widget-text-editor\" data-id=\"db780e3\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p><span style=\"font-weight: 400;\">Pirmasis žingsnis į “Hypercube” metodiką. Kursą gali lankyti kiekvienas norintis. </span></p><p><span style=\"font-weight: 400;\">Praktikų metu lavinamas išskaidytas erdvinis dėmesys ir valdoma vaizduotė, suformuojamas dinamiškas 3-matis vidinis  instrumentas “Tesseract”. Apžiūrėti galite parsisiuntę aplikaciją į savo telefoną “3D Hypercube”. Nuoroda <a href=\"https://play.google.com/store/apps/details?id=com.praktika.hypercube3d\" target=\"_blank\" rel=\"noopener\">Android.</a></span><span style=\"font-weight: 400;\"><br /></span><span style=\"font-weight: 400;\"><br /></span><span style=\"font-weight: 400;\"> Išlavintų įgūdžių ir instrumento “Tesseract” dėka kurso dalyvis gali:</span></p><ul><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">geriau valdyti save ir situacijas,</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">lengviau strūkturuoti didelius kiekius informacijos,</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">naudotis apimtinio mastymo galimybėmis,</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">kūrybiškiau pažvelgti į gyvenimo iššūkius ir rasti efektyviausius sprendimus.</span></span><p> </p></li></ul><p>Formatas: 3 mėnesiai</p><p><span style=\"font-weight: 400;\">12 kassavaitinių susitikimų po 2 valandas  internetu. Savarankiška praktika: kasdien po 3 minutės kiekvieną valandą neatsitraukiant nuo įprastinės veiklos.</span></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-b76dc56 e-con-full e-flex e-con e-child\" data-id=\"b76dc56\" data-element_type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-f3ae753 e-con-full e-flex e-con e-child\" data-id=\"f3ae753\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-3fa313a elementor-widget elementor-widget-image\" data-id=\"3fa313a\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>/*! elementor - v3.22.0 - 17-06-2024 */\n.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=\".svg\"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"220\" height=\"220\" src=\"https://hypercube.lt/wp-content/uploads/2022/09/PavNr2.gif\" class=\"attachment-large size-large wp-image-368\" alt=\"\" />\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-bd8b6b3 elementor-widget elementor-widget-heading\" data-id=\"bd8b6b3\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">„Hypercube“</h2>\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-0376050 elementor-widget elementor-widget-text-editor\" data-id=\"0376050\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p><span style=\"font-weight: 400;\">Antrasis žingsnis “Hypercube” metodikos įvaldymui. Kursą gali lankyti tik turintys suformuotą “Tesseract” instrumentą.</span></p><p><span style=\"font-weight: 400;\">Praktikų metu atskleidžiami žmogaus vidiniai kūno, emocinės jausminės sferos, sąmonės,  savitapatumo resursai ir suformuojamas keturmačiais modeliais aprašytas ir valdomas dinamiškas vidinis instrumentas instrumentas “Hypercube”.</span></p><p><span style=\"font-weight: 400;\"> Atskleistų vidinių resursų ir instrumento “Hyperube” dėka kurso dalyvis gali:</span></p><ul><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">turėti reikiamą kiekį norimos kokybės energijos per keliolika sekundžių,</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">gyventi  energijos pertekliuje,</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">struktūriškai keisti savo suvokimą</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">naudotis erdvinio mastymo kokybinių struktūrų metodu galimybėmis, </span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">patirti visumos efektą.</span></span><p> </p></li></ul><p><span style=\"font-weight: 400;\">Formatas: 5 mėnesiai.</span></p><p><span style=\"font-weight: 400;\">20 kassavaitinių susitikimų viso kurso metu 2 valandas internetu. 4 ir 6 dienų gyvi susitikimai intensyvioms situacijoms kurso metu (nesant galimybės atvykti, galima dalyvauti ir online).</span></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-93ca06c e-con-full e-flex e-con e-child\" data-id=\"93ca06c\" data-element_type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-bd8627b e-con-full e-flex e-con e-child\" data-id=\"bd8627b\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-006ca47 elementor-widget elementor-widget-image\" data-id=\"006ca47\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"220\" height=\"220\" src=\"https://hypercube.lt/wp-content/uploads/2022/09/pavNR3.gif\" class=\"attachment-large size-large wp-image-369\" alt=\"\" />\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-4f5f519 elementor-widget elementor-widget-heading\" data-id=\"4f5f519\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">„Hypersfere“</h2>\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-ebbd0b4 elementor-widget elementor-widget-text-editor\" data-id=\"ebbd0b4\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p><span style=\"font-weight: 400;\">Kursą gali lankyti tik įvaldę “Tesseract” ir “Hypercube” instrumentus.</span></p><p><span style=\"font-weight: 400;\">Praktikų metu lavinami jėga ir jautrumas, mokomasi suvokti savo ir kitų subjektyvumą, suformuojami suformuojami dinamiški keturmačiais modeliais aprašyti ir valdomi vidiniai instrumentai. Profesionaliai įvaldę erdviškumą, kurso dalyviai sugeba galingai ir subtiliai sąveikauti su tikrove: tiek išorine, tiek vidine.</span></p><p><span style=\"font-weight: 400;\">F</span><span style=\"font-weight: 400;\">ormatas: 3 mėnesiai.</span></p><p><span style=\"font-weight: 400;\">Kassavaitiniai susitikimai viso kurso metu 2 valandas internetu. 6 dienų gyvas susitikimas intensyviai situacijai kurso metu  (nesant galimybės atvykti, galima dalyvauti ir online).</span></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-18e8a77 e-con-full e-flex e-con e-child\" data-id=\"18e8a77\" data-element_type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-906bd0c e-con-full e-flex e-con e-child\" data-id=\"906bd0c\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-b65cbad elementor-widget elementor-widget-video\" data-id=\"b65cbad\" data-element_type=\"widget\" data-settings=\"{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;mute&quot;:&quot;yes&quot;}\" data-widget_type=\"video.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"e-hosted-video elementor-wrapper elementor-open-inline\">\n\t\t\t\t\t<video class=\"elementor-video\" src=\"https://hypercube.lt/wp-content/uploads/2022/09/PavNr4.mp4\" autoplay=\"\" loop=\"\" muted=\"muted\" playsinline=\"\" controlsList=\"nodownload\"></video>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-5136575 elementor-widget elementor-widget-heading\" data-id=\"5136575\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">„Trans-Former“</h2>\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-a9bf089 elementor-widget elementor-widget-text-editor\" data-id=\"a9bf089\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p><span style=\"font-weight: 400;\">Kursą gali lankyti tik įvaldę “Tesseract”, “Hypercube” ir “Hypersfere” instrumentus.</span></p><p>Suformuojami didelio sudėtingumo ir abstrakčių struktūrų daugiaapimtiniai instrumentai skirti rezonansinėms sąveikoms su įvairiomis vidinės ir išorinės tikrovių apimtimis.</p><p><span style=\"color: var( --e-global-color-text ); font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align); font-size: 1rem;\">Formatas: 3 mėnesiai.</span></p><p><span style=\"font-weight: 400;\">Kassavaitiniai susitikimai viso kurso metu 2 valandas internetu. 6 dienų gyvas susitikimas intensyviai situacijai kurso metu  (nesant galimybės atvykti, galima dalyvauti ir online).</span></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-0cb126c e-flex e-con-boxed e-con e-parent\" data-id=\"0cb126c\" data-element_type=\"container\" id=\"next2\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-a3d8a95 elementor-widget elementor-widget-text-editor\" data-id=\"a3d8a95\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<h1><span style=\"color: #000000;\">Atsiliepimai</span></h1>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-9dcf748 e-flex e-con-boxed e-con e-parent\" data-id=\"9dcf748\" data-element_type=\"container\" data-settings=\"{&quot;animation_mobile&quot;:&quot;none&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-f0a7e83 elementor-testimonial--skin-bubble elementor-testimonial--mobile-align-center elementor-testimonial--layout-image_inline elementor-testimonial--align-center elementor-arrows-yes elementor-widget elementor-widget-testimonial-carousel\" data-id=\"f0a7e83\" data-element_type=\"widget\" data-settings=\"{&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;slides_per_view&quot;:&quot;1&quot;,&quot;slides_per_view_mobile&quot;:&quot;1&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;slides_to_scroll_mobile&quot;:&quot;1&quot;,&quot;show_arrows&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}\" data-widget_type=\"testimonial-carousel.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<link rel=\"stylesheet\" href=\"https://hypercube.lt/wp-content/plugins/elementor-pro/assets/css/widget-carousel.min.css\">\t\t<div class=\"elementor-swiper\">\n\t\t\t<div class=\"elementor-main-swiper swiper\">\n\t\t\t\t<div class=\"swiper-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"swiper-slide\">\n\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial__content\">\n\t\t\t\t\t<div class=\"elementor-testimonial__text\">\n\t\t\t\t\t\tMetodika „Hypercube“ padeda suformuoti aktyvios dinamiškos savireguliacijos įgūdžius, skirtus realiose situacijose turėti norimos kokybės energijos, reikalingos reaguoti į gyvenimo iššūkius.\nDėka žmogaus smegenų neuroplastiškumo metodikos „Hypercube“ praktikos leidžia pereiti į vidinio valdymo rėžimą ir atsverti manipuliatyvų išorinio valdymo poveikį, kas ypač aktualu virtualios realybės plėtros sąlygomis.\nValdoma vaizduotė ir struktūruotas sąmoningas dėmesingumas – kelias į sisteminio mąstymo prabangą tiems, kas nori SAU leisti daugiau.\n\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"elementor-testimonial__footer\">\n\t\t\t\t\t\t\t\t<cite class=\"elementor-testimonial__cite\"><span class=\"elementor-testimonial__name\">Liudmila</span></cite>\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"swiper-slide\">\n\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial__content\">\n\t\t\t\t\t<div class=\"elementor-testimonial__text\">\n\t\t\t\t\t\t\"Hiperkubo\" metodika neturi ribų, ji pilna galimybių. Naudoti ypač lengva ir žaizminga. Juk vis tik svarbiausia \"valdyti\" savo dėmesį, o gal tiksliau sakant matyti, kur jis krypsta ir ar tai tikrai tai, ko noriu šiuo metu, nes kartais verta dėmesį praplėsti ir nukreipti norima linkme.\nAčiū Gita Ramana už praktinį įgūdį, kuris leidžia praplėsti savo galimybes.\" - Vika\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"elementor-testimonial__footer\">\n\t\t\t\t\t\t\t\t<cite class=\"elementor-testimonial__cite\"><span class=\"elementor-testimonial__name\">Vika</span></cite>\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"swiper-slide\">\n\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial__content\">\n\t\t\t\t\t<div class=\"elementor-testimonial__text\">\n\t\t\t\t\t\t\"Šio kurso metu išmokau akimirksniu atsidurti čia ir dabar, išplėsti savo vidinę erdvę, keisti ją taip kaip noriu pati, išmokau realiai pasinaudoti žmonijos sukaupta patirtimi praturtindama savo pasaulį. Kūnas taip pat dėkoja, nes ši metodika leidžia be galo maloniai jį suaktyvinti ir gal net gydyti. Labai rekomenduoju ir didelis AČIŪ\"\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"elementor-testimonial__footer\">\n\t\t\t\t\t\t\t\t<cite class=\"elementor-testimonial__cite\"><span class=\"elementor-testimonial__name\">Eglė</span></cite>\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"swiper-slide\">\n\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial__content\">\n\t\t\t\t\t<div class=\"elementor-testimonial__text\">\n\t\t\t\t\t\t\"Labai įdomus mokymas ir pati metodika, kurios dėka galite stipriai išlavinti savo vaizduotę. O jei turi valdomą vaizduotę, gali gyventi pagal savo svajones ir naujus impulsus Šiame mokyme minimum teorijos ir maksimus praktikų ir labai įdomu, kad kiekviena pamoka yra vis kita, nauja įdomi, tikrai nereikės zūbrinti to pačio :))) Dar labai puiku, kad praktikuojama ne tik su vaizduote, bet ir su pojūčiais. Linkiu smagių patyrimų ir atradimų Ir beje, puikiai veikia online :)))\"\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"elementor-testimonial__footer\">\n\t\t\t\t\t\t\t\t<cite class=\"elementor-testimonial__cite\"><span class=\"elementor-testimonial__name\">Lina</span></cite>\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-swiper-button elementor-swiper-button-prev\" role=\"button\" tabindex=\"0\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"eicon-chevron-left\"></i>\t\t\t\t\t\t\t<span class=\"elementor-screen-only\">Previous</span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"elementor-swiper-button elementor-swiper-button-next\" role=\"button\" tabindex=\"0\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"eicon-chevron-right\"></i>\t\t\t\t\t\t\t<span class=\"elementor-screen-only\">Next</span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Tiems, kas nori SAU leisti daugiau Žmogaus vidinių resursų valdymo metodika “Hypercube” (autorius Tomas Jacinkevičius) “Hypercube” metodika skirta susipažinti su žmogaus vinidių resursų potencialu, įgyti jo atskleidimui skirtus instrumentus ir sukurti vidinio valdymo sistemą. Vaizduotės ir dėmesio valdymo praktikos lavina erdvinį ir vizualinį intelektus bei daugiamatį suvokimą. Išugdyti aktyvios savireguliacijos įgūdžiai padeda atsverti išorinio valdymo [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 598,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-7",
+      "page",
+      "type-page",
+      "status-publish",
+      "has-post-thumbnail",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://hypercube.lt/wp-json/wp/v2/pages/7",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://hypercube.lt/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://hypercube.lt/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://hypercube.lt/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://hypercube.lt/wp-json/wp/v2/comments?post=7"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 707,
+          "href": "https://hypercube.lt/wp-json/wp/v2/pages/7/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1547,
+          "href": "https://hypercube.lt/wp-json/wp/v2/pages/7/revisions/1547"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://hypercube.lt/wp-json/wp/v2/media/598"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://hypercube.lt/wp-json/wp/v2/media?parent=7"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 2,
+          "name": "Gita Stonkienė",
+          "url": "",
+          "description": "",
+          "link": "https://hypercube.lt/author/gita-stonkienegmail-com/",
+          "slug": "gita-stonkienegmail-com",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/1d9dcecda759a47e368af544ffcf4f42428b852a8d54fbacd6c037831ff6b98a?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/1d9dcecda759a47e368af544ffcf4f42428b852a8d54fbacd6c037831ff6b98a?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/1d9dcecda759a47e368af544ffcf4f42428b852a8d54fbacd6c037831ff6b98a?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://hypercube.lt/wp-json/wp/v2/users/2",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://hypercube.lt/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "id": 598,
+          "date": "2022-09-26T14:43:22",
+          "slug": "paveikslelis-i-logo_",
+          "type": "attachment",
+          "link": "https://hypercube.lt/homepage/paveikslelis-i-logo_/",
+          "title": {
+            "rendered": "paveikslelis i logo_"
+          },
+          "author": 1,
+          "featured_media": 0,
+          "caption": {
+            "rendered": ""
+          },
+          "alt_text": "",
+          "media_type": "image",
+          "mime_type": "image/png",
+          "media_details": {
+            "width": 550,
+            "height": 550,
+            "file": "2022/09/paveikslelis-i-logo_.png",
+            "filesize": 53137,
+            "sizes": {
+              "medium": {
+                "file": "paveikslelis-i-logo_-300x300.png",
+                "width": 300,
+                "height": 300,
+                "filesize": 19121,
+                "mime_type": "image/png",
+                "source_url": "https://hypercube.lt/wp-content/uploads/2022/09/paveikslelis-i-logo_-300x300.png"
+              },
+              "thumbnail": {
+                "file": "paveikslelis-i-logo_-150x150.png",
+                "width": 150,
+                "height": 150,
+                "filesize": 6140,
+                "mime_type": "image/png",
+                "source_url": "https://hypercube.lt/wp-content/uploads/2022/09/paveikslelis-i-logo_-150x150.png"
+              },
+              "full": {
+                "file": "paveikslelis-i-logo_.png",
+                "width": 550,
+                "height": 550,
+                "mime_type": "image/png",
+                "source_url": "https://hypercube.lt/wp-content/uploads/2022/09/paveikslelis-i-logo_.png"
+              }
+            },
+            "image_meta": {
+              "aperture": "0",
+              "credit": "",
+              "camera": "",
+              "caption": "",
+              "created_timestamp": "0",
+              "copyright": "",
+              "focal_length": "0",
+              "iso": "0",
+              "shutter_speed": "0",
+              "title": "",
+              "orientation": "0",
+              "keywords": []
+            }
+          },
+          "source_url": "https://hypercube.lt/wp-content/uploads/2022/09/paveikslelis-i-logo_.png",
+          "_links": {
+            "self": [
+              {
+                "href": "https://hypercube.lt/wp-json/wp/v2/media/598",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://hypercube.lt/wp-json/wp/v2/media"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://hypercube.lt/wp-json/wp/v2/types/attachment"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "https://hypercube.lt/wp-json/wp/v2/users/1"
+              }
+            ],
+            "replies": [
+              {
+                "embeddable": true,
+                "href": "https://hypercube.lt/wp-json/wp/v2/comments?post=598"
+              }
+            ],
+            "wp:attached-to": [
+              {
+                "embeddable": true,
+                "post_type": "page",
+                "id": 7,
+                "href": "https://hypercube.lt/wp-json/wp/v2/pages/7"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

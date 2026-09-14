@@ -1,0 +1,28 @@
+{
+  "fetchedAt": "2026-09-14T14:23:14.097Z",
+  "counts": {
+    "pages": 2,
+    "posts": 1,
+    "media": 22
+  },
+  "urls": [
+    {
+      "type": "page",
+      "slug": "author-and-instructors",
+      "link": "https://hypercube.lt/author-and-instructors/",
+      "title": "Autorius ir instruktoriai"
+    },
+    {
+      "type": "page",
+      "slug": "homepage",
+      "link": "https://hypercube.lt/",
+      "title": "Hypercube"
+    },
+    {
+      "type": "post",
+      "slug": "hello-world",
+      "link": "https://hypercube.lt/hello-world/",
+      "title": "Hello world!"
+    }
+  ]
+}
